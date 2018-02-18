@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" #"default" # "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DEV PUZZLE"
+title                    : "Dev Puzzle"
 title_separator          : "-"
-name                     : "DEV PUZZLE"
+name                     : "Dev Puzzle"
 description              : "Let’s dive into individual puzzle pieces and see how they combine to create great software"
 url                      : "https://www.devpuzzle.net"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -240,6 +240,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
