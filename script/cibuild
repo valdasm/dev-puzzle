@@ -14,7 +14,7 @@ rm -rf _site
 mkdir _site
 
 # clone remote repo to "_site"
-git clone https://${GH_TOKEN}@github.com/valdasm/cloud_linker.git --branch gh-pages _site
+git clone https://${GH_TOKEN}@github.com/valdasm/dev-puzzle.git --branch gh-pages _site
 
 # build with Jekyll into "_site"
 rake rebuild_sources
