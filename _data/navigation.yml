@@ -1,0 +1,44 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "Services"
+    url: /services/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
+
+services:
+  - title: Services
+    children:
+      - title: "All"
+        url: /services/  
+      - title: "Analytics"
+        url: /services/analytics/
+      - title: "Compute"
+        url: /services/compute/
+      - title: "Dev Tools"
+        url: /services/dev_tools/
+      - title: "Identity Management"
+        url: /services/identity/
+      - title: "Integrations"
+        url: /services/integrations/
+      - title: "Management"
+        url: /services/management/ 
+      - title: "Media"
+        url: /services/media/                        
+      - title: "Network"
+        url: /services/network/
+      - title: "Security"
+        url: /services/security/
+      - title: "Storage"
+        url: /services/storage/
+      - title: "Web/Mobile"
+        url: /services/web_mobile/
+
+  - title: Architectures
+    children:
+      - title: "Plan"
+        url: /architecture/
+      

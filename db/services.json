@@ -1,0 +1,1204 @@
+[
+{ 
+    "id": "az-storage-blob",
+    "name": "Azure Blob Storage",
+    "category": "storage",
+    "description": "some description about blob storage",
+    "last_updated": "2018-02-15",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        "https://azure.microsoft.com/en-us/services/storage/blobs/",
+        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-dotnet-how-to-use-blobs"
+    ]
+},
+{
+    "id": "az-storage-data-lake-store",
+    "name": "Azure Data Lake Store",
+    "category": "storage",
+    "description": "some description about data lake storage",
+    "last_updated": "2018-02-15",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        "https://azure.microsoft.com/en-us/services/storage/blobs/",
+        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-dotnet-how-to-use-blobs"
+    ]
+},
+{
+    "id": "az-storage-managed-disks",
+    "name": "Azure Managed Disks",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-file",
+    "name": "Azure File Storage",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-table",
+    "name": "Azure Table Storage",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-import-export",
+    "name": "Azure Import/Export",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-storsimple",
+    "name": "Azure StorSimple",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-sql-db",
+    "name": "Azure SQL",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-db-migration",
+    "name": "Azure Database Migration Service",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-sql-dw",
+    "name": "Azure SQL Data Warehouse",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-redis-cache",
+    "name": "Azure Redis Cache",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-cosmos-db",
+    "name": "Azure Cosmos DB",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-storage-search",
+    "name": "Azure Search",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-integrations-storage-queue",
+    "name": "Azure Queue Storage",
+    "category": "integrations",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-integrations-event-hubs",
+    "name": "Azure Event Hubs",
+    "category": "integrations",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-integrations-logic-apps",
+    "name": "Azure Logic Apps",
+    "category": "integrations",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-integrations-service-bus",
+    "name": "Azure Service Bus",
+    "category": "integrations",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-integrations-iot-hub",
+    "name": "Azure IoT Hubs",
+    "category": "integrations",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-integrations-backup",
+    "name": "Azure Backup",
+    "category": "integrations",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-integrations-site-recovery",
+    "name": "Azure Site Recovery",
+    "category": "integrations",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-integrations-data-gateway",
+    "name": "Azure Data Management Gateway",
+    "category": "integrations",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-web-mobile-app-service",
+    "name": "Azure App Service",
+    "category": "web-mobile",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-web-mobile-service-fabric",
+    "name": "Azure Service Fabric",
+    "category": "web-mobile",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-web-mobile-mobile-apps",
+    "name": "Azure Mobile Apps",
+    "category": "web-mobile",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-web-mobile-powerapps",
+    "name": "Azure Powerapps",
+    "category": "web-mobile",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-web-mobile-api-app",
+    "name": "Azure API App",
+    "category": "web-mobile",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-web-mobile-api-management",
+    "name": "Azure API Management",
+    "category": "web-mobile",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-web-mobile-notification-hub",
+    "name": "Azure Notification Hubs",
+    "category": "web-mobile",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-web-mobile-mobile-engagement",
+    "name": "Azure Mobile Engagement",
+    "category": "web-mobile",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-web-mobile-xamarin-test",
+    "name": "Azure Xamarin Test",
+    "category": "web-mobile",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-compute-vm",
+    "name": "Azure Virtual Machines",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-compute-vm-scale-set",
+    "name": "Azure Virtual Machines Scale Sets",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-compute-batch",
+    "name": "Azure Batch",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-compute-remote-app",
+    "name": "Azure RemoteApp",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-compute-acs",
+    "name": "Azure Container Service (ACS)",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-compute-aks",
+    "name": "Azure Container Service (AKS, Kubernetes)",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-compute-functions",
+    "name": "Azure Functions",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-compute-container-registry",
+    "name": "Azure Container Registry",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-compute-container-instances",
+    "name": "Azure Container Instances",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-hdinsight",
+    "name": "Azure HDInsight",
+    "category": "analytics",
+    "description": "some description about Hadoop Paas",
+    "last_updated": "2018-02-15",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+
+    ]
+},
+{
+    "id": "az-analytics-ml-studio",
+    "name": "Azure Machine Learning Studio",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-ml-workbench",
+    "name": "Azure Machine Learning Workbench",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-ml-web-service",
+    "name": "Azure ML Web Services",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-databricks",
+    "name": "Azure Databricks",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-asa",
+    "name": "Azure Stream Analytics",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-adf-v1",
+    "name": "Azure Data Factory V1",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-adf-v2",
+    "name": "Azure Data Factory V2",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-tsi",
+    "name": "Azure Time Series Insights",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-iot-edge",
+    "name": "Azure IoT Edge",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-data-catalog",
+    "name": "Azure Data Catalog",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-lake-analytics",
+    "name": "Azure Data Lake Analytics",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-analysis-services",
+    "name": "Azure Analysis Services",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-event-grid",
+    "name": "Azure Event Grid",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-genomics",
+    "name": "Microsoft Genomics",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-bot",
+    "name": "Azure Bot Service",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-cognitive-services",
+    "name": "Azure Cognitive Services",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-cntk",
+    "name": "Azure Cognitive Toolkit (CNTK)",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-powerbi",
+    "name": "Microsoft Power BI",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-powerbi-gateway",
+    "name": "Microsoft Power BI Gateway",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-powerbi-embedded",
+    "name": "Power BI Embedded",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-hdinsight-domain-joined",
+    "name": "Azure HDInsight - Domain Joined",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-ml-jupyter",
+    "name": "Jupyter notebooks in Azure ML Studio",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-analytics-notebooks",
+    "name": "Azure Notebooks",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        "https://notebooks.azure.com/"
+    ]
+},
+{
+    "id": "apache-analytics-oozie",
+    "name": "Apache Oozie",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Apache",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "analytics-python",
+    "name": "",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "analytics-r",
+    "name": "",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "analytics-jupyter",
+    "name": "",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-vnet",
+    "name": "Azure Virtual Network",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-nsg",
+    "name": "Network Security Groups",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-watcher",
+    "name": "Azure Network Watcher",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-express-route",
+    "name": "Azure ExpressRoute",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-vpn-gateway",
+    "name": "Azure VPN Gateway",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-load-balancer",
+    "name": "Azure Load Balancer",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-app-gateway",
+    "name": "Azure Application Gateway",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-traffic-manager",
+    "name": "Azure Traffic Manager",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-dns",
+    "name": "Azure DNS",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-network-cdn",
+    "name": "Azure CDN",
+    "category": "network",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-media-services",
+    "name": "Azure Media Services",
+    "category": "media",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-identity-aad",
+    "name": "Azure Active Directory",
+    "category": "identity",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-identity-arm",
+    "name": "Azure Resource Manager",
+    "category": "identity",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-identity-aad-domain-services",
+    "name": "Azure AD Domain Services",
+    "category": "identity",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-identity-aad-b2c",
+    "name": "Azure Active Directory B2C",
+    "category": "identity",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-identity-mfa",
+    "name": "Azure Multi-Factor Authentication",
+    "category": "identity",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-management-automation",
+    "name": "Azure Automation",
+    "category": "management",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-management-log-analytics",
+    "name": "Azure Log Analytics",
+    "category": "management",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-management-monitor",
+    "name": "Azure Monitor",
+    "category": "management",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-management-scheduler",
+    "name": "Azure Scheduler",
+    "category": "management",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-management-advisor",
+    "name": "Azure Advisor",
+    "category": "management",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-dev-vs-app-insights",
+    "name": "Visual Studio Application Insights",
+    "category": "dev-tools",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-dev-vs-team-services",
+    "name": "Visual Studio Team Services",
+    "category": "dev-tools",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-dev-devops-project",
+    "name": "Azure DevOps Project",
+    "category": "dev-tools",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-dev-devtest-labs",
+    "name": "Azure DevTest Labs",
+    "category": "dev-tools",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "dev-powershell",
+    "name": "PowerShell",
+    "category": "dev-tools",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Microsoft",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "dev-c-sharp",
+    "name": "C#",
+    "category": "dev-tools",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Microsoft",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "dev-f-sharp",
+    "name": "F#",
+    "category": "dev-tools",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Microsoft",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-security-center",
+    "name": "Azure Security Center",
+    "category": "security",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-security-key-vault",
+    "name": "Azure Key Vault",
+    "category": "security",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-security-ddos-protection",
+    "name": "Azure DDoS Protection",
+    "category": "security",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-security-policy",
+    "name": "Azure Policy",
+    "category": "security",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-productivity-office",
+    "name": "Office 365",
+    "category": "productivity",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+}
+]

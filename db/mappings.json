@@ -1,0 +1,34 @@
+[
+{ 
+    "parent_service_id": "az-storage-blob",
+    "child_service_id": "az-analytics-hdinsight",
+    "details": "Azure Blob Storage supports integration with HDInsight",
+    "last_updated": "2018-02-15",
+    "status": 2,
+    "urls": [
+        "https://azure.microsoft.com/en-us/services/storage/blobs/",
+        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-dotnet-how-to-use-blobs"
+    ]
+},
+{ 
+    "parent_service_id": "az-storage-blob",
+    "child_service_id": "az-analytics-ml-studio",
+    "details": "Azure Blob Storage supports integration with Azure Machine Learning Studio",
+    "last_updated": "2018-02-15",
+    "status": 2,
+    "urls": [
+        "https://asdfas"
+    ]
+},
+{ 
+    "parent_service_id": "az-analytics-data-lake",
+    "child_service_id": "az-ml-studio",
+    "details": "No Data Lake Store support from Azure Machine Learning Studio",
+    "last_updated": "2018-02-15",
+    "status": -1,
+    "urls": [
+        "https://asdfas"
+    ]
+}
+]
+

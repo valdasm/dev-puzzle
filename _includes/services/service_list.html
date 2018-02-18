@@ -1,0 +1,17 @@
+
+{% if page.type == nil %}
+
+    {% for item in site.services %}
+{% include services/service_list_item.html %}
+    {% endfor %}
+
+{% else %}
+
+    {% for item in site.services %}
+        {% if item.categories contains page.type %}
+{% include services/service_list_item.html %}
+        {% endif %}
+    {% endfor %}
+
+{% endif %}
+
