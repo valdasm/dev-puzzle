@@ -3,38 +3,76 @@
     "id": "az-storage-blob",
     "name": "Azure Blob Storage",
     "category": "storage",
-    "description": "some description about blob storage",
-    "last_updated": "2018-02-15",
+    "description": "Azure Blob storage is a service that stores unstructured data in the cloud as objects/blobs. Blob storage can store any type of text or binary data, such as a document, media file, or application installer. Blob storage is also referred to as object storage.",
+    "last_updated": "2018-02-20",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-storage-s3"],
     "urls": [
-        "https://azure.microsoft.com/en-us/services/storage/blobs/",
-        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-dotnet-how-to-use-blobs"
+        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction"
+    ]
+},
+{ 
+    "id": "az-storage-blob-archive",
+    "name": "Azure Blob Storage Archive",
+    "category": "storage",
+    "description": "Archive storage has the lowest storage cost and higher data retrieval costs compared to hot and cool storage. This tier is intended for data that can tolerate several hours of retrieval latency and will remain in the archive tier for at least 180 days.",
+    "last_updated": "2018-02-20",
+    "provider": "Azure",
+    "parent_service": "az-storage-blob",
+    "similar_services":["aws-storage-s3"],
+    "urls": [
+        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers"
+    ]
+},
+{ 
+    "id": "az-storage-blob-hot",
+    "name": "Azure Blob Storage Hot",
+    "category": "storage",
+    "description": "Hot storage has higher storage costs than cool and archive storage, but the lowest access costs. Example usage scenarios for the hot storage tier include: Data that is in active use or expected to be accessed (read from and written to) frequently. Data that is staged for processing and eventual migration to the cool storage tier.",
+    "last_updated": "2018-02-20",
+    "provider": "Azure",
+    "parent_service": "az-storage-blob",
+    "similar_services":["aws-storage-s3"],
+    "urls": [
+        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers"
+    ]
+},
+{ 
+    "id": "az-storage-blob-cold",
+    "name": "Azure Blob Storage Cold",
+    "category": "storage",
+    "description": "Cool storage tier has lower storage costs and higher access costs compared to hot storage. This tier is intended for data that will remain in the cool tier for at least 30 days.",
+    "last_updated": "2018-02-20",
+    "provider": "Azure",
+    "parent_service": "az-storage-blob",
+    "similar_services":["aws-storage-s3"],
+    "urls": [
+        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers"
     ]
 },
 {
     "id": "az-storage-data-lake-store",
     "name": "Azure Data Lake Store",
     "category": "storage",
-    "description": "some description about data lake storage",
+    "description": "The webHDFS compatible store is a massive scale data store for extremely high throughput and low latency for analytics.",
     "last_updated": "2018-02-15",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-        "https://azure.microsoft.com/en-us/services/storage/blobs/",
-        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-dotnet-how-to-use-blobs"
+        "https://docs.microsoft.com/en-us/azure/data-lake-store/",
+        "https://feedback.azure.com/forums/327234-data-lake"
     ]
 },
 {
-    "id": "az-storage-managed-disks",
-    "name": "Azure Managed Disks",
+    "id": "az-storage-disks",
+    "name": "Azure Disks",
     "category": "storage",
-    "description": "",
+    "description": "Azure provides standard, premium, unmanaged, managed disks to be used with Azure VM",
     "last_updated": "2018-02-17",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-storage-elastic-block"],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/about-disks-and-vhds"
     ]
 },
 {
@@ -44,9 +82,9 @@
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-storage-elastic-file"],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction"
     ]
 },
 {
@@ -65,30 +103,55 @@
     "id": "az-storage-import-export",
     "name": "Azure Import/Export",
     "category": "storage",
-    "description": "",
-    "last_updated": "2018-02-17",
+    "description": "Securely transfer large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure data center.",
+    "last_updated": "2018-02-20",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-storage-import-export"],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/storage/common/storage-import-export-service"
     ]
 },
 {
     "id": "az-storage-storsimple",
     "name": "Azure StorSimple",
     "category": "storage",
-    "description": "",
+    "description": "An integrated storage solution that manages storage tasks between on-premises devices and Azure cloud storage",
     "last_updated": "2018-02-17",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-storage-gateway"],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/storsimple/"
     ]
 },
 {
-    "id": "az-storage-sql-db",
+    "id": "az-storage-data-box",
+    "name": "Azure Data Box",
+    "category": "storage",
+    "description": "The Azure Data Box provides a secure, tamper-resistant method for quick and simple transfer of your data to Azure. You can order the Data Box through the Azure portal. Easily connect it to your existing network, then load your data onto the Data Box using standard NAS protocols (SMB/CIFS)",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "status": 1,
+    "similar_services":["aws-storage-snowball"],
+    "urls": [
+        "https://azure.microsoft.com/en-us/services/storage/databox/"
+    ]
+},
+{
+    "id": "az-storage-site-recovery",
+    "name": "Azure Site Recovery",
+    "category": "storage",
+    "description": "Azure Site Recovery orchestrates and manages disaster recovery for Azure VMs, and on-premises VMs and physical servers.",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        "https://docs.microsoft.com/en-us/azure/site-recovery/"
+    ]
+},
+{
+    "id": "az-db-sql-db",
     "name": "Azure SQL",
-    "category": "storage",
+    "category": "db",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -98,9 +161,9 @@
     ]
 },
 {
-    "id": "az-storage-db-migration",
+    "id": "az-db-db-migration",
     "name": "Azure Database Migration Service",
-    "category": "storage",
+    "category": "db",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -110,9 +173,9 @@
     ]
 },
 {
-    "id": "az-storage-sql-dw",
+    "id": "az-db-sql-dw",
     "name": "Azure SQL Data Warehouse",
-    "category": "storage",
+    "category": "db",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -122,9 +185,9 @@
     ]
 },
 {
-    "id": "az-storage-redis-cache",
+    "id": "az-db-redis-cache",
     "name": "Azure Redis Cache",
-    "category": "storage",
+    "category": "db",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -134,9 +197,9 @@
     ]
 },
 {
-    "id": "az-storage-cosmos-db",
+    "id": "az-db-cosmos-db",
     "name": "Azure Cosmos DB",
-    "category": "storage",
+    "category": "db",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -146,9 +209,9 @@
     ]
 },
 {
-    "id": "az-storage-search",
+    "id": "az-db-search",
     "name": "Azure Search",
-    "category": "storage",
+    "category": "db",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -230,18 +293,6 @@
     ]
 },
 {
-    "id": "az-integrations-site-recovery",
-    "name": "Azure Site Recovery",
-    "category": "integrations",
-    "description": "",
-    "last_updated": "2018-02-18",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
     "id": "az-integrations-data-gateway",
     "name": "Azure Data Management Gateway",
     "category": "integrations",
@@ -254,8 +305,8 @@
     ]
 },
 {
-    "id": "az-web-mobile-app-service",
-    "name": "Azure App Service",
+    "id": "az-web-media-services",
+    "name": "Azure Media Services",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -266,8 +317,8 @@
     ]
 },
 {
-    "id": "az-web-mobile-service-fabric",
-    "name": "Azure Service Fabric",
+    "id": "az-web-mobile-app-service",
+    "name": "Azure App Service",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -362,20 +413,44 @@
     ]
 },
 {
-    "id": "az-compute-vm",
-    "name": "Azure Virtual Machines",
+    "id": "az-compute-service-fabric",
+    "name": "Azure Service Fabric",
     "category": "compute",
-    "description": "",
+    "description": "A compute service that orchestrates and manages the execution, lifetime, and resilience of complex, inter-related code components that can be either stateless or stateful.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/service-fabric/"
+    ]
+},
+{
+    "id": "az-compute-vm",
+    "name": "Azure Virtual Machines",
+    "category": "compute",
+    "description": "Virtual servers allow users to deploy, manage, and maintain OS and server software. Instance types provide combinations of CPU/RAM. Users pay for what they use with the flexibility to change sizes",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":["aws-compute-ec2"],
+    "urls": [
+        "https://docs.microsoft.com/en-us/azure/virtual-machines/"
     ]
 },
 {
     "id": "az-compute-vm-scale-set",
     "name": "Azure Virtual Machines Scale Sets",
+    "category": "compute",
+    "description": "Virtual machine scale sets are an Azure compute resource that you can use to deploy and manage a set of identical VMs. With all VMs configured the same, scale sets are designed to support true autoscale, and no pre-provisioning of VMs is required.",
+    "last_updated": "2018-02-20",
+    "provider": "Azure",
+    "similar_services":["aws-compute-auto-scaling"],
+    "urls": [
+        "https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview"
+    ]
+},
+{
+    "id": "az-compute-cloud-services",
+    "name": "Azure Cloud Services",
     "category": "compute",
     "description": "",
     "last_updated": "2018-02-18",
@@ -389,12 +464,12 @@
     "id": "az-compute-batch",
     "name": "Azure Batch",
     "category": "compute",
-    "description": "",
-    "last_updated": "2018-02-18",
+    "description": "Use Batch to run large-scale parallel and high-performance computing (HPC) applications efficiently in the cloud. Define the Azure compute resources to execute your applications in parallel or at scale without manually configuring or managing infrastructure.",
+    "last_updated": "2018-02-20",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-compute-batch"],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/batch/"
     ]
 },
 {
@@ -410,63 +485,93 @@
     ]
 },
 {
-    "id": "az-compute-acs",
-    "name": "Azure Container Service (ACS)",
+    "id": "az-compute-web-job",
+    "name": "Azure Web Jobs",
     "category": "compute",
-    "description": "",
-    "last_updated": "2018-02-18",
+    "description": "Provides an easy way to run background processes in an application context.",
+    "last_updated": "2018-02-20",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/app-service/web-sites-create-web-jobs",
+        "https://github.com/Azure/azure-webjobs-sdk/wiki"
+    ]
+},
+{
+    "id": "az-compute-acs",
+    "name": "Azure Container Service (ACS)",
+    "category": "compute",
+    "description": "Azure Container Service allows you to quickly deploy a production ready Kubernetes, DC/OS, or Docker Swarm cluster.",
+    "last_updated": "2018-02-20",
+    "provider": "Azure",
+    "similar_services":["aws-compute-ecs"],
+    "urls": [
+        "https://docs.microsoft.com/en-us/azure/container-service/"
     ]
 },
 {
     "id": "az-compute-aks",
     "name": "Azure Container Service (AKS, Kubernetes)",
     "category": "compute",
-    "description": "",
-    "last_updated": "2018-02-18",
+    "description": "AKS manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise.",
+    "last_updated": "2018-02-20",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/aks/"
     ]
 },
 {
     "id": "az-compute-functions",
     "name": "Azure Functions",
     "category": "compute",
-    "description": "",
+    "description": "Azure Functions is a serverless compute service that enables you to run code on-demand without having to explicitly provision or manage infrastructure.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-compute-lambda"],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/azure-functions/",
+        "https://feedback.azure.com/forums/355860-azure-functions"
+    ]
+},
+{
+    "id": "az-compute-functions-edge",
+    "name": "Azure Functions as an IoT Edge ",
+    "category": "compute",
+    "description": "Deploy code that implements your business logic directly to your IoT Edge device.",
+    "last_updated": "2018-02-20",
+    "status": 1,
+    "provider": "Azure",
+    "similar_services":["aws-compute-lambda-edge"],
+    "urls": [
+        "https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-function"
     ]
 },
 {
     "id": "az-compute-container-registry",
     "name": "Azure Container Registry",
     "category": "compute",
-    "description": "",
+    "description": "Allows customers to store Docker formatted images. It is used to create all types of container deployments on Azure.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-compute-container-registry"],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/container-registry/",
+        "https://feedback.azure.com/forums/903958-azure-container-registry"
     ]
 },
 {
     "id": "az-compute-container-instances",
     "name": "Azure Container Instances",
     "category": "compute",
-    "description": "",
+    "description": "Azure Container Instances offers the fastest and simplest way to run a container in Azure, without having to provision any virtual machines and without having to adopt a higher-level service",
     "last_updated": "2018-02-18",
     "provider": "Azure",
+    "status": 1,
     "similar_services":[],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/container-instances/",
+        "https://feedback.azure.com/forums/602224-azure-container-instances"
     ]
 },
 {
@@ -926,78 +1031,6 @@
     ]
 },
 {
-    "id": "az-media-services",
-    "name": "Azure Media Services",
-    "category": "media",
-    "description": "",
-    "last_updated": "2018-02-18",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
-    "id": "az-identity-aad",
-    "name": "Azure Active Directory",
-    "category": "identity",
-    "description": "",
-    "last_updated": "2018-02-18",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
-    "id": "az-identity-arm",
-    "name": "Azure Resource Manager",
-    "category": "identity",
-    "description": "",
-    "last_updated": "2018-02-18",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
-    "id": "az-identity-aad-domain-services",
-    "name": "Azure AD Domain Services",
-    "category": "identity",
-    "description": "",
-    "last_updated": "2018-02-18",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
-    "id": "az-identity-aad-b2c",
-    "name": "Azure Active Directory B2C",
-    "category": "identity",
-    "description": "",
-    "last_updated": "2018-02-18",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
-    "id": "az-identity-mfa",
-    "name": "Azure Multi-Factor Authentication",
-    "category": "identity",
-    "description": "",
-    "last_updated": "2018-02-18",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
     "id": "az-management-automation",
     "name": "Azure Automation",
     "category": "management",
@@ -1048,6 +1081,18 @@
 {
     "id": "az-management-advisor",
     "name": "Azure Advisor",
+    "category": "management",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-management-arm",
+    "name": "Azure Resource Manager",
     "category": "management",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1190,6 +1235,54 @@
     ]
 },
 {
+    "id": "az-security-aad",
+    "name": "Azure Active Directory",
+    "category": "security",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-security-aad-domain-services",
+    "name": "Azure AD Domain Services",
+    "category": "security",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-security-aad-b2c",
+    "name": "Azure Active Directory B2C",
+    "category": "security",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-security-mfa",
+    "name": "Azure Multi-Factor Authentication",
+    "category": "security",
+    "description": "",
+    "last_updated": "2018-02-18",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
     "id": "az-productivity-office",
     "name": "Office 365",
     "category": "productivity",
@@ -1199,6 +1292,175 @@
     "similar_services":[],
     "urls": [
         
+    ]
+},
+{
+    "id": "aws-compute-ecs",
+    "name": "EC2 Container Service (ECS)",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-compute-acs"],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "aws-compute-elastic-eks",
+    "name": "Elastic Container Service for Kubernetes (EKS)",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-compute-aks"],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "aws-compute-container-registry",
+    "name": "EC2 Container Registry",
+    "category": "compute",
+    "description": "",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-compute-container-registry"],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "aws-compute-lambda",
+    "name": "AWS Lambda",
+    "category": "compute",
+    "description": "AWS Lambda is a compute service that lets you run code without provisioning or managing servers. AWS Lambda executes your code only when needed and scales automatically, from a few requests per day to thousands per second.",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-compute-functions"],
+    "urls": [
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+    ]
+},
+{
+    "id": "aws-compute-lambda-edge",
+    "name": "AWS Lambda@Edge",
+    "category": "compute",
+    "description": "Lambda@Edge lets you run Lambda functions at AWS Regions and Amazon CloudFront edge locations in response to CloudFront events, without provisioning or managing servers",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-compute-functions-edge"],
+    "urls": [
+        "https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html"
+    ]
+},
+{
+    "id": "aws-compute-batch",
+    "name": "AWS Batch",
+    "category": "compute",
+    "description": "AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-compute-batch"],
+    "urls": [
+        "https://aws.amazon.com/batch/"
+    ]
+},
+{
+    "id": "aws-compute-auto-scaling",
+    "name": "AWS Auto Scaling",
+    "category": "compute",
+    "description": "AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. Using AWS Auto Scaling, it’s easy to setup application scaling for multiple resources across multiple services in minutes.",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-compute-vm-scale-set"],
+    "urls": [
+        "https://aws.amazon.com/autoscaling/"
+    ]
+},
+{
+    "id": "aws-compute-ec2",
+    "name": "Amazon EC2",
+    "category": "compute",
+    "description": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-compute-vm"],
+    "urls": [
+        "https://aws.amazon.com/ec2/"
+    ]
+},
+
+{
+    "id": "aws-storage-s3",
+    "name": "Amazon Simple Storage Service S3",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-storage-blob"],
+    "urls": [
+        "https://aws.amazon.com/s3/"
+    ]
+},
+{
+    "id": "aws-storage-elastic-file",
+    "name": "Amazon Elastic File System",
+    "category": "storage",
+    "description": "Amazon Elastic File System (Amazon EFS) provides simple, scalable file storage for use with Amazon EC2 instances in the AWS Cloud. Amazon EFS is easy to use and offers a simple interface that allows you to create and configure file systems quickly and easily. With Amazon EFS, storage capacity is elastic, growing and shrinking automatically as you add and remove files, so your applications have the storage they need, when they need it.",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-storage-file"],
+    "urls": [
+        "https://aws.amazon.com/efs/"
+    ]
+},
+{
+    "id": "aws-storage-elastic-block",
+    "name": "Amazon Elastic Block Store",
+    "category": "storage",
+    "description": "Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud. Each Amazon EBS volume is automatically replicated within its Availability Zone to protect you from component failure, offering high availability and durability.",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-storage-disks"],
+    "urls": [
+        "https://aws.amazon.com/ebs/"
+    ]
+},
+{
+    "id": "aws-storage-gateway",
+    "name": "AWS Storage Gateway",
+    "category": "storage",
+    "description": "AWS Storage Gateway is a hybrid storage service that enables your on-premises applications to seamlessly use AWS cloud storage. You can use the service for backup and archiving, disaster recovery, cloud bursting, storage tiering, and migration.",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-storage-storsimple"],
+    "urls": [
+        "https://aws.amazon.com/storagegateway/"
+    ]
+},
+{
+    "id": "aws-storage-import-export",
+    "name": "AWS Import/Export",
+    "category": "storage",
+    "description": "AWS Import/Export is a service that accelerates transferring large amounts of data into and out of AWS using physical storage appliances, bypassing the Internet. AWS Import/Export supports transfers data directly onto and off of storage devices you own using the Amazon high-speed internal network.",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-storage-import-export"],
+    "urls": [
+        "https://docs.aws.amazon.com/AWSImportExport/latest/DG/whatisdisk.html"
+    ]
+},
+{
+    "id": "aws-storage-snowball",
+    "name": "AWS Snowball",
+    "category": "storage",
+    "description": "AWS Snowball is a service that accelerates transferring large amounts of data into and out of AWS using physical storage appliances, bypassing the Internet.",
+    "last_updated": "2018-02-20",
+    "provider": "AWS",
+    "similar_services":["az-storage-data-box"],
+    "urls": [
+        "https://docs.aws.amazon.com/snowball/latest/ug/whatissnowball.html"
     ]
 }
 ]
