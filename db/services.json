@@ -7,47 +7,22 @@
     "last_updated": "2018-02-20",
     "provider": "Azure",
     "similar_services":["aws-storage-s3"],
+    "features":[
+        {
+            "name": "Archive access tier",
+            "description": "Archive storage has the lowest storage cost and higher data retrieval costs compared to hot and cool storage. This tier is intended for data that can tolerate several hours of retrieval latency and will remain in the archive tier for at least 180 days."
+        },
+        {
+            "name": "Cool access tier",
+            "description": "Cool storage tier has lower storage costs and higher access costs compared to hot storage. This tier is intended for data that will remain in the cool tier for at least 30 days."
+        },
+        {
+            "name": "Hot access tier",
+            "description": "Hot storage has higher storage costs than cool and archive storage, but the lowest access costs. Example usage scenarios for the hot storage tier include: Data that is in active use or expected to be accessed (read from and written to) frequently. Data that is staged for processing and eventual migration to the cool storage tier."
+        }
+    ],
     "urls": [
         "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction"
-    ]
-},
-{ 
-    "id": "az-storage-blob-archive",
-    "name": "Azure Blob Storage Archive",
-    "category": "storage",
-    "description": "Archive storage has the lowest storage cost and higher data retrieval costs compared to hot and cool storage. This tier is intended for data that can tolerate several hours of retrieval latency and will remain in the archive tier for at least 180 days.",
-    "last_updated": "2018-02-20",
-    "provider": "Azure",
-    "parent_service": "az-storage-blob",
-    "similar_services":["aws-storage-s3"],
-    "urls": [
-        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers"
-    ]
-},
-{ 
-    "id": "az-storage-blob-hot",
-    "name": "Azure Blob Storage Hot",
-    "category": "storage",
-    "description": "Hot storage has higher storage costs than cool and archive storage, but the lowest access costs. Example usage scenarios for the hot storage tier include: Data that is in active use or expected to be accessed (read from and written to) frequently. Data that is staged for processing and eventual migration to the cool storage tier.",
-    "last_updated": "2018-02-20",
-    "provider": "Azure",
-    "parent_service": "az-storage-blob",
-    "similar_services":["aws-storage-s3"],
-    "urls": [
-        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers"
-    ]
-},
-{ 
-    "id": "az-storage-blob-cold",
-    "name": "Azure Blob Storage Cold",
-    "category": "storage",
-    "description": "Cool storage tier has lower storage costs and higher access costs compared to hot storage. This tier is intended for data that will remain in the cool tier for at least 30 days.",
-    "last_updated": "2018-02-20",
-    "provider": "Azure",
-    "parent_service": "az-storage-blob",
-    "similar_services":["aws-storage-s3"],
-    "urls": [
-        "https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers"
     ]
 },
 {
