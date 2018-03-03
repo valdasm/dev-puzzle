@@ -105,7 +105,7 @@
     "description": "The Azure Data Box provides a secure, tamper-resistant method for quick and simple transfer of your data to Azure. You can order the Data Box through the Azure portal. Easily connect it to your existing network, then load your data onto the Data Box using standard NAS protocols (SMB/CIFS)",
     "last_updated": "2018-02-17",
     "provider": "Azure",
-    "status": 1,
+    "status": "Preview",
     "similar_services":["aws-storage-snowball"],
     "urls": [
         "https://azure.microsoft.com/en-us/services/storage/databox/"
@@ -515,7 +515,7 @@
     "category": "compute",
     "description": "Deploy code that implements your business logic directly to your IoT Edge device.",
     "last_updated": "2018-02-20",
-    "status": 1,
+    "status": "Preview",
     "provider": "Azure",
     "similar_services":["aws-compute-lambda-edge"],
     "urls": [
@@ -542,7 +542,7 @@
     "description": "Azure Container Instances offers the fastest and simplest way to run a container in Azure, without having to provision any virtual machines and without having to adopt a higher-level service",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "status": 1,
+    "status": "Preview",
     "similar_services":[],
     "urls": [
         "https://docs.microsoft.com/en-us/azure/container-instances/",
