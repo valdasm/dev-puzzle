@@ -1,35 +1,38 @@
 
 [![Build Status](https://travis-ci.org/valdasm/dev-puzzle.svg?branch=master)](https://travis-ci.org/valdasm/dev-puzzle)
 
-## DEV PUZZLE
-
-## EXECUTE
+# EXECUTE
 * PREVIEW - rake preview
 * BUILD - rake build 
 * CHECK LINKS (requires page to be already running) - rake check_links 
 
-## CONTRIBUTE
+# CONTRIBUTE
 There are two ways:
 1. Add new services and mappings - dive into db folder and modify json files
 2. Contribute to the whole page
 
-## BACKLOG
-[ ] Add tags page
-[ ] Populate services with tags, use this for a broader search; As of know people without Azure knowledge can't find correct services
-[ ] Compare page AWS, Azure, Google
-[ ] Rename services into cloud?
-[ ] Filter based on cloud provider 
-[ ] Rename 
+# WORK ITEMS
 
-## TODO
-[ ] Landing page (nice images, link to WHY post, example of mappings)
-[ ] Services analytics-jupyter; analytics-python don't have corresponding services, thus are missing in view.
-[ ] Add json data validation test; execute on travis build
-[ ] Description and links for all services
-[ ] There should be at least one mapping for every service
+### BACKLOG
+* Add tags page for cloud services. Tag cloud
+* Populate services with tags, use this for a broader search; As of know people without Azure knowledge can't find correct services
+* Compare page AWS, Azure, Google
+* Rename services into cloud?
+* Filter based on cloud provider 
 
-## Done
+### TODO
+* Services analytics-jupyter; analytics-python don't have corresponding services, thus are missing in view.
+* Add json data validation test; execute on travis build
+* Description and links for all services
+* There should be at least one mapping for every service
+* Landing page (nice images, link to WHY post, example of mappings)
+
+### Doing
+* Blog post Welcome To Dev Puzzle
+* Listing all services, Azure first and add corresponding AWS
+
+### Done
 [x] Setup custom domain, build, deployment, HTTPS
 
-## Dismissed
-[ ] Change permalink for blog posts. REASON: Failing breadcrumbs + no actual value for a reader. Date is visible now.
+### Dismissed
+* Change permalink for blog posts collection: REASON: Failing breadcrumbs + no actual value for a reader. Date is visible now in URL.
