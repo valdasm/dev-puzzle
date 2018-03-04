@@ -18,24 +18,24 @@ services:
         url: /services/analytics/
       - title: "Compute"
         url: /services/compute/
+      - title: "Database"
+        url: /services/database/
       - title: "Dev Tools"
-        url: /services/dev_tools/
-      - title: "Identity Management"
-        url: /services/identity/
+        url: /services/dev-tools/
       - title: "Integrations"
         url: /services/integrations/
       - title: "Management"
         url: /services/management/ 
-      - title: "Media"
-        url: /services/media/                        
       - title: "Network"
         url: /services/network/
+      - title: "Productivity"
+        url: /services/productivity/
       - title: "Security"
         url: /services/security/
       - title: "Storage"
         url: /services/storage/
-      - title: "Web/Mobile"
-        url: /services/web_mobile/
+      - title: "Web & Mobile"
+        url: /services/web-mobile/
 
   - title: Architectures
     children:

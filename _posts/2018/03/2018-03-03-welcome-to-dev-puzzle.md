@@ -4,10 +4,10 @@ title:  "Welcome to Dev Puzzle!"
 date:   2018-03-03
 categories: blog 
 tags: 
-	- azure
-	- aws
-	- compare services
-	- be up to date with cloud
+ - azure
+ - aws
+ - compare services
+ - be up to date with cloud
 
 excerpt: "Simplify cloud learning and finding the right services"
 ---

@@ -1,10 +1,11 @@
 ---
-layout: archive
-title: "Web/Mobile"
-permalink: /services/web_mobile/
+layout: service_list_layout
+title: "Web & Mobile"
+permalink: /services/web-mobile/
 sidebar:
   nav: "services"
-type: web_mobile
+type: web-mobile
 ---
 
-{% include services/service_list.html %}
+
+Web mobile

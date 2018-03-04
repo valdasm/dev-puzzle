@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: service_list_layout
 title: "Management"
 permalink: /services/management/
 sidebar:
@@ -7,5 +7,5 @@ sidebar:
 type: management
 ---
 
-{% include services/service_list.html %}
+
 

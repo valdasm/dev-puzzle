@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: service_list_layout
 title: "Compute"
 permalink: /services/compute/
 sidebar:
@@ -7,5 +7,4 @@ sidebar:
 type: compute
 ---
 
-{% include services/service_list.html %}
 

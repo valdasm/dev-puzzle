@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: service_list_layout
 title: "Network"
 permalink: /services/network/
 sidebar:
@@ -9,4 +9,4 @@ type: network
 
 Here are all the services related to networking etc
 
-{% include services/service_list.html %}
+

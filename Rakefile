@@ -132,6 +132,7 @@ def generate_mapping_json_files
       "description" => service["description"],
       "name" => service["name"],
       "urls" => service["urls"],
+      "status" => service["status"],
       "last_updated" => service["last_updated"],
       "mappings" => [
       ]    
@@ -143,7 +144,7 @@ def generate_mapping_json_files
             "child_service_id" => mapping["child_service_id"],
             "details" => mapping["details"], 
             "status" => mapping["status"],
-            "mapping_ulrs" => mapping["urls"],
+            "ulrs" => mapping["urls"],
             "last_updated" => mapping["last_updated"]
           })
       elsif mapping["child_service_id"] == service["id"]
@@ -151,7 +152,7 @@ def generate_mapping_json_files
             "child_service_id" => mapping["parent_service_id"],
             "details" => mapping["details"], 
             "status" => mapping["status"],
-            "mapping_ulrs" => mapping["urls"],
+            "ulrs" => mapping["urls"],
             "last_updated" => mapping["last_updated"]
           })
       end

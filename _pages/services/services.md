@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: service_list_layout
 title: "Services"
 permalink: /services/
 sidebar:
@@ -8,4 +8,3 @@ sidebar:
 
 Select filter Azure / AWS / Google
 
-{% include services/service_list.html %}

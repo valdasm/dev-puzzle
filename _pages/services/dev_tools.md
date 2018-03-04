@@ -1,11 +1,9 @@
 ---
-layout: archive
+layout: service_list_layout
 title: "Dev Tools"
-permalink: /services/dev_tools/
+permalink: /services/dev-tools/
 sidebar:
   nav: "services"
-type: dev_tools
+type: dev-tools
 ---
-
-{% include services/service_list.html %}
 

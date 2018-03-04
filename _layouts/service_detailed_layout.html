@@ -1,0 +1,17 @@
+---
+layout: single
+---
+
+{% for service in site.data.services[page.type] %}
+  <p>{{ service.description }}</p>
+  {% if service.mappings.size == 0 %}
+    There are no available mappings yet! 
+    Take a look at how we describe mappings of <a href="/services/storage/az-storage-blob/" target="_blank">Azure Blob Storage.</a>
+    Feel free to contribute on <a href="https://github.com/valdasm/dev-puzzle" target="_blank">Dev Puzzle project on GitHub.</a>
+  {% else %}  
+    <h4>Mappings</h4>
+    {% for mapping in service.mappings %}
+      <p>{{ mapping.details }}</p>
+    {% endfor %}  
+  {% endif %}
+{% endfor %}
