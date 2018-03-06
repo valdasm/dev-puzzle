@@ -34,12 +34,16 @@ There are two ways:
 * Blog post Welcome To Dev Puzzle
 * Listing all services, Azure first and add corresponding AWS
 
+
 ### Done
 [x] Message when mappings are not available.
 
 [x] Fix templates to use template structure. Currently you use plain structure without indentations.
 
 [x] Setup custom domain, build, deployment, HTTPS
+
+[x] Add subcategories
+
 
 ### Dismissed
 * Change permalink for blog posts collection: REASON: Failing breadcrumbs + no actual value for a reader. Date is visible now in URL.

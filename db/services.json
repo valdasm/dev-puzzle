@@ -2,6 +2,7 @@
 { 
     "id": "az-storage-blob",
     "name": "Azure Blob Storage",
+    "subcategory": "object-storage",
     "category": "storage",
     "description": "Azure Blob storage is a service that stores unstructured data in the cloud as objects/blobs. Blob storage can store any type of text or binary data, such as a document, media file, or application installer. Blob storage is also referred to as object storage.",
     "last_updated": "2018-02-20",
@@ -28,6 +29,7 @@
 {
     "id": "az-storage-data-lake-store",
     "name": "Azure Data Lake Store",
+    "subcategory": "",
     "category": "storage",
     "description": "The webHDFS compatible store is a massive scale data store for extremely high throughput and low latency for analytics.",
     "last_updated": "2018-02-15",
@@ -41,6 +43,7 @@
 {
     "id": "az-storage-disks",
     "name": "Azure Disks",
+    "subcategory": "disk-infrastructure",
     "category": "storage",
     "description": "Azure provides standard, premium, unmanaged, managed disks to be used with Azure VM",
     "last_updated": "2018-02-17",
@@ -53,6 +56,7 @@
 {
     "id": "az-storage-file",
     "name": "Azure File Storage",
+    "subcategory": "shared-files",
     "category": "storage",
     "description": "",
     "last_updated": "2018-02-17",
@@ -63,20 +67,9 @@
     ]
 },
 {
-    "id": "az-storage-table",
-    "name": "Azure Table Storage",
-    "category": "storage",
-    "description": "",
-    "last_updated": "2018-02-17",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
     "id": "az-storage-import-export",
     "name": "Azure Import/Export",
+    "subcategory": "bulk-transfer",
     "category": "storage",
     "description": "Securely transfer large amounts of data to Azure Blob storage and Azure Files by shipping disk drives to an Azure data center.",
     "last_updated": "2018-02-20",
@@ -89,6 +82,7 @@
 {
     "id": "az-storage-storsimple",
     "name": "Azure StorSimple",
+    "subcategory": "hybrid-storage",
     "category": "storage",
     "description": "An integrated storage solution that manages storage tasks between on-premises devices and Azure cloud storage",
     "last_updated": "2018-02-17",
@@ -101,6 +95,7 @@
 {
     "id": "az-storage-data-box",
     "name": "Azure Data Box",
+    "subcategory": "",
     "category": "storage",
     "description": "The Azure Data Box provides a secure, tamper-resistant method for quick and simple transfer of your data to Azure. You can order the Data Box through the Azure portal. Easily connect it to your existing network, then load your data onto the Data Box using standard NAS protocols (SMB/CIFS)",
     "last_updated": "2018-02-17",
@@ -114,6 +109,7 @@
 {
     "id": "az-storage-site-recovery",
     "name": "Azure Site Recovery",
+    "subcategory": "disaster-recovery",
     "category": "storage",
     "description": "Azure Site Recovery orchestrates and manages disaster recovery for Azure VMs, and on-premises VMs and physical servers.",
     "last_updated": "2018-02-18",
@@ -124,9 +120,36 @@
     ]
 },
 {
+    "id": "az-storage-backup",
+    "name": "Azure Backup",
+    "subcategory": "backup",
+    "category": "storage",
+    "description": "",
+    "last_updated": "2018-03-06",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        "https://azure.microsoft.com/services/backup/"
+    ]
+},
+{
     "id": "az-db-sql-db",
     "name": "Azure SQL",
-    "category": "db",
+    "subcategory": "relational-database",
+    "category": "database",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        
+    ]
+},
+{
+    "id": "az-db-table",
+    "name": "Azure Table Storage",
+    "subcategory": "nosql-key-value-storage",
+    "category": "database",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -138,7 +161,8 @@
 {
     "id": "az-db-db-migration",
     "name": "Azure Database Migration Service",
-    "category": "db",
+    "subcategory": "database-migration",
+    "category": "database",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -147,22 +171,12 @@
         
     ]
 },
-{
-    "id": "az-db-sql-dw",
-    "name": "Azure SQL Data Warehouse",
-    "category": "db",
-    "description": "",
-    "last_updated": "2018-02-17",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
+
 {
     "id": "az-db-redis-cache",
     "name": "Azure Redis Cache",
-    "category": "db",
+    "subcategory": "caching",
+    "category": "database",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -174,19 +188,8 @@
 {
     "id": "az-db-cosmos-db",
     "name": "Azure Cosmos DB",
-    "category": "db",
-    "description": "",
-    "last_updated": "2018-02-17",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
-    "id": "az-db-search",
-    "name": "Azure Search",
-    "category": "db",
+    "subcategory": "nosql-document-storage",
+    "category": "database",
     "description": "",
     "last_updated": "2018-02-17",
     "provider": "Azure",
@@ -198,6 +201,7 @@
 {
     "id": "az-integrations-storage-queue",
     "name": "Azure Queue Storage",
+    "subcategory": "",
     "category": "integrations",
     "description": "",
     "last_updated": "2018-02-17",
@@ -210,6 +214,7 @@
 {
     "id": "az-integrations-event-hubs",
     "name": "Azure Event Hubs",
+    "subcategory": "",
     "category": "integrations",
     "description": "",
     "last_updated": "2018-02-17",
@@ -222,6 +227,7 @@
 {
     "id": "az-integrations-logic-apps",
     "name": "Azure Logic Apps",
+    "subcategory": "backend-process-logic",
     "category": "integrations",
     "description": "",
     "last_updated": "2018-02-17",
@@ -234,6 +240,7 @@
 {
     "id": "az-integrations-service-bus",
     "name": "Azure Service Bus",
+    "subcategory": "",
     "category": "integrations",
     "description": "",
     "last_updated": "2018-02-18",
@@ -246,18 +253,7 @@
 {
     "id": "az-integrations-iot-hub",
     "name": "Azure IoT Hubs",
-    "category": "integrations",
-    "description": "",
-    "last_updated": "2018-02-18",
-    "provider": "Azure",
-    "similar_services":[],
-    "urls": [
-        
-    ]
-},
-{
-    "id": "az-integrations-backup",
-    "name": "Azure Backup",
+    "subcategory": "",
     "category": "integrations",
     "description": "",
     "last_updated": "2018-02-18",
@@ -270,6 +266,7 @@
 {
     "id": "az-integrations-data-gateway",
     "name": "Azure Data Management Gateway",
+    "subcategory": "",
     "category": "integrations",
     "description": "",
     "last_updated": "2018-02-18",
@@ -282,6 +279,7 @@
 {
     "id": "az-web-media-services",
     "name": "Azure Media Services",
+    "subcategory": "",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -294,6 +292,7 @@
 {
     "id": "az-web-mobile-app-service",
     "name": "Azure App Service",
+    "subcategory": "",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -306,6 +305,7 @@
 {
     "id": "az-web-mobile-mobile-apps",
     "name": "Azure Mobile Apps",
+    "subcategory": "",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -318,6 +318,7 @@
 {
     "id": "az-web-mobile-powerapps",
     "name": "Azure Powerapps",
+    "subcategory": "",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -330,6 +331,7 @@
 {
     "id": "az-web-mobile-api-app",
     "name": "Azure API App",
+    "subcategory": "",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -342,6 +344,7 @@
 {
     "id": "az-web-mobile-api-management",
     "name": "Azure API Management",
+    "subcategory": "",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -354,6 +357,7 @@
 {
     "id": "az-web-mobile-notification-hub",
     "name": "Azure Notification Hubs",
+    "subcategory": "",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -366,6 +370,7 @@
 {
     "id": "az-web-mobile-mobile-engagement",
     "name": "Azure Mobile Engagement",
+    "subcategory": "",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -378,6 +383,7 @@
 {
     "id": "az-web-mobile-xamarin-test",
     "name": "Azure Xamarin Test",
+    "subcategory": "",
     "category": "web-mobile",
     "description": "",
     "last_updated": "2018-02-18",
@@ -390,6 +396,7 @@
 {
     "id": "az-compute-service-fabric",
     "name": "Azure Service Fabric",
+    "subcategory": "microservice-applications",
     "category": "compute",
     "description": "A compute service that orchestrates and manages the execution, lifetime, and resilience of complex, inter-related code components that can be either stateless or stateful.",
     "last_updated": "2018-02-18",
@@ -402,6 +409,7 @@
 {
     "id": "az-compute-vm",
     "name": "Azure Virtual Machines",
+    "subcategory": "virtual-servers",
     "category": "compute",
     "description": "Virtual servers allow users to deploy, manage, and maintain OS and server software. Instance types provide combinations of CPU/RAM. Users pay for what they use with the flexibility to change sizes",
     "last_updated": "2018-02-18",
@@ -414,6 +422,7 @@
 {
     "id": "az-compute-vm-scale-set",
     "name": "Azure Virtual Machines Scale Sets",
+    "subcategory": "scalability",
     "category": "compute",
     "description": "Virtual machine scale sets are an Azure compute resource that you can use to deploy and manage a set of identical VMs. With all VMs configured the same, scale sets are designed to support true autoscale, and no pre-provisioning of VMs is required.",
     "last_updated": "2018-02-20",
@@ -426,6 +435,7 @@
 {
     "id": "az-compute-cloud-services",
     "name": "Azure Cloud Services",
+    "subcategory": "",
     "category": "compute",
     "description": "",
     "last_updated": "2018-02-18",
@@ -438,6 +448,7 @@
 {
     "id": "az-compute-batch",
     "name": "Azure Batch",
+    "subcategory": "job-orchestration",
     "category": "compute",
     "description": "Use Batch to run large-scale parallel and high-performance computing (HPC) applications efficiently in the cloud. Define the Azure compute resources to execute your applications in parallel or at scale without manually configuring or managing infrastructure.",
     "last_updated": "2018-02-20",
@@ -450,6 +461,7 @@
 {
     "id": "az-compute-remote-app",
     "name": "Azure RemoteApp",
+    "subcategory": "",
     "category": "compute",
     "description": "",
     "last_updated": "2018-02-18",
@@ -462,6 +474,7 @@
 {
     "id": "az-compute-web-job",
     "name": "Azure Web Jobs",
+    "subcategory": "",
     "category": "compute",
     "description": "Provides an easy way to run background processes in an application context.",
     "last_updated": "2018-02-20",
@@ -475,6 +488,7 @@
 {
     "id": "az-compute-acs",
     "name": "Azure Container Service (ACS)",
+    "subcategory": "container-management",
     "category": "compute",
     "description": "Azure Container Service allows you to quickly deploy a production ready Kubernetes, DC/OS, or Docker Swarm cluster.",
     "last_updated": "2018-02-20",
@@ -487,6 +501,7 @@
 {
     "id": "az-compute-aks",
     "name": "Azure Container Service (AKS, Kubernetes)",
+    "subcategory": "container-management",
     "category": "compute",
     "description": "AKS manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise.",
     "last_updated": "2018-02-20",
@@ -499,6 +514,7 @@
 {
     "id": "az-compute-functions",
     "name": "Azure Functions",
+    "subcategory": "backend-process-logic",
     "category": "compute",
     "description": "Azure Functions is a serverless compute service that enables you to run code on-demand without having to explicitly provision or manage infrastructure.",
     "last_updated": "2018-02-18",
@@ -512,6 +528,7 @@
 {
     "id": "az-compute-functions-edge",
     "name": "Azure Functions as an IoT Edge ",
+    "subcategory": "backend-process-logic",
     "category": "compute",
     "description": "Deploy code that implements your business logic directly to your IoT Edge device.",
     "last_updated": "2018-02-20",
@@ -525,6 +542,7 @@
 {
     "id": "az-compute-container-registry",
     "name": "Azure Container Registry",
+    "subcategory": "container-management",
     "category": "compute",
     "description": "Allows customers to store Docker formatted images. It is used to create all types of container deployments on Azure.",
     "last_updated": "2018-02-18",
@@ -538,6 +556,7 @@
 {
     "id": "az-compute-container-instances",
     "name": "Azure Container Instances",
+    "subcategory": "",
     "category": "compute",
     "description": "Azure Container Instances offers the fastest and simplest way to run a container in Azure, without having to provision any virtual machines and without having to adopt a higher-level service",
     "last_updated": "2018-02-18",
@@ -552,18 +571,46 @@
 {
     "id": "az-analytics-hdinsight",
     "name": "Azure HDInsight",
+    "subcategory": "data-processing",
     "category": "analytics",
-    "description": "some description about Hadoop Paas",
+    "description": "",
     "last_updated": "2018-02-15",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-
+        "https://azure.microsoft.com/services/hdinsight/"
+    ]
+},
+{
+    "id": "az-analytics-search",
+    "name": "Azure Search",
+    "subcategory": "search",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-03-06",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        "https://azure.microsoft.com/services/search/"
+    ]
+},
+{
+    "id": "az-analytics-sql-dw",
+    "name": "Azure SQL Data Warehouse",
+    "subcategory": "data-warehouse",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        "https://azure.microsoft.com/services/sql-data-warehouse/"
     ]
 },
 {
     "id": "az-analytics-ml-studio",
     "name": "Azure Machine Learning Studio",
+    "subcategory": "machine-learning",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -576,6 +623,7 @@
 {
     "id": "az-analytics-ml-workbench",
     "name": "Azure Machine Learning Workbench",
+    "subcategory": "machine-learning",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -588,6 +636,7 @@
 {
     "id": "az-analytics-ml-web-service",
     "name": "Azure ML Web Services",
+    "subcategory": "machine-learning",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -600,6 +649,7 @@
 {
     "id": "az-analytics-databricks",
     "name": "Azure Databricks",
+    "subcategory": "",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -612,6 +662,7 @@
 {
     "id": "az-analytics-asa",
     "name": "Azure Stream Analytics",
+    "subcategory": "streaming-data",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -624,6 +675,7 @@
 {
     "id": "az-analytics-adf-v1",
     "name": "Azure Data Factory V1",
+    "subcategory": "data-orchestration",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -636,6 +688,7 @@
 {
     "id": "az-analytics-adf-v2",
     "name": "Azure Data Factory V2",
+    "subcategory": "data-orchestration",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -648,6 +701,7 @@
 {
     "id": "az-analytics-tsi",
     "name": "Azure Time Series Insights",
+    "subcategory": "",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -660,6 +714,7 @@
 {
     "id": "az-analytics-iot-edge",
     "name": "Azure IoT Edge",
+    "subcategory": "",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -672,6 +727,7 @@
 {
     "id": "az-analytics-data-catalog",
     "name": "Azure Data Catalog",
+    "subcategory": "data-discovery",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -684,6 +740,7 @@
 {
     "id": "az-analytics-lake-analytics",
     "name": "Azure Data Lake Analytics",
+    "subcategory": "data-processing",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -696,6 +753,7 @@
 {
     "id": "az-analytics-analysis-services",
     "name": "Azure Analysis Services",
+    "subcategory": "",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -708,6 +766,7 @@
 {
     "id": "az-analytics-event-grid",
     "name": "Azure Event Grid",
+    "subcategory": "",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -720,6 +779,7 @@
 {
     "id": "az-analytics-genomics",
     "name": "Microsoft Genomics",
+    "subcategory": "intelligence",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -732,6 +792,7 @@
 {
     "id": "az-analytics-bot",
     "name": "Azure Bot Service",
+    "subcategory": "intelligence",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -744,6 +805,7 @@
 {
     "id": "az-analytics-cognitive-services",
     "name": "Azure Cognitive Services",
+    "subcategory": "intelligence",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -756,6 +818,7 @@
 {
     "id": "az-analytics-cntk",
     "name": "Azure Cognitive Toolkit (CNTK)",
+    "subcategory": "machine-learning",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -768,6 +831,7 @@
 {
     "id": "az-analytics-powerbi",
     "name": "Microsoft Power BI",
+    "subcategory": "visualization",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -780,6 +844,7 @@
 {
     "id": "az-analytics-powerbi-gateway",
     "name": "Microsoft Power BI Gateway",
+    "subcategory": "",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -792,6 +857,7 @@
 {
     "id": "az-analytics-powerbi-embedded",
     "name": "Power BI Embedded",
+    "subcategory": "visualization",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -804,6 +870,7 @@
 {
     "id": "az-analytics-hdinsight-domain-joined",
     "name": "Azure HDInsight - Domain Joined",
+    "subcategory": "data-processing",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -816,6 +883,7 @@
 {
     "id": "az-analytics-ml-jupyter",
     "name": "Jupyter notebooks in Azure ML Studio",
+    "subcategory": "machine-learning",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -828,6 +896,7 @@
 {
     "id": "az-analytics-notebooks",
     "name": "Azure Notebooks",
+    "subcategory": "machine-learning",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -840,6 +909,7 @@
 {
     "id": "apache-analytics-oozie",
     "name": "Apache Oozie",
+    "subcategory": "data-orchestration",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
@@ -851,11 +921,12 @@
 },
 {
     "id": "analytics-python",
-    "name": "",
+    "name": "Python",
+    "subcategory": "language",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "",
+    "provider": "Free",
     "similar_services":[],
     "urls": [
         
@@ -863,11 +934,12 @@
 },
 {
     "id": "analytics-r",
-    "name": "",
+    "name": "R",
+    "subcategory": "language",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "",
+    "provider": "Free",
     "similar_services":[],
     "urls": [
         
@@ -875,11 +947,12 @@
 },
 {
     "id": "analytics-jupyter",
-    "name": "",
+    "name": "Jupyter Notebook",
+    "subcategory": "machine-learning",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "",
+    "provider": "Free",
     "similar_services":[],
     "urls": [
         
@@ -888,18 +961,20 @@
 {
     "id": "az-network-vnet",
     "name": "Azure Virtual Network",
+    "subcategory": "virtual-networking",
     "category": "network",
-    "description": "",
-    "last_updated": "2018-02-18",
+    "description": "A virtual network isolates your resources from others' resources in the Azure cloud. You can connect virtual networks to other virtual networks, or to your on-premises network.",
+    "last_updated": "2018-03-06",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-network-virtual-cloud"],
     "urls": [
-        
+        "https://azure.microsoft.com/services/virtual-network/"
     ]
 },
 {
     "id": "az-network-nsg",
     "name": "Network Security Groups",
+    "subcategory": "",
     "category": "network",
     "description": "",
     "last_updated": "2018-02-18",
@@ -912,6 +987,7 @@
 {
     "id": "az-network-watcher",
     "name": "Azure Network Watcher",
+    "subcategory": "",
     "category": "network",
     "description": "",
     "last_updated": "2018-02-18",
@@ -924,6 +1000,7 @@
 {
     "id": "az-network-express-route",
     "name": "Azure ExpressRoute",
+    "subcategory": "dedicated-network",
     "category": "network",
     "description": "",
     "last_updated": "2018-02-18",
@@ -936,6 +1013,7 @@
 {
     "id": "az-network-vpn-gateway",
     "name": "Azure VPN Gateway",
+    "subcategory": "cross-premises-connectivity",
     "category": "network",
     "description": "",
     "last_updated": "2018-02-18",
@@ -948,6 +1026,7 @@
 {
     "id": "az-network-load-balancer",
     "name": "Azure Load Balancer",
+    "subcategory": "load-balancing",
     "category": "network",
     "description": "",
     "last_updated": "2018-02-18",
@@ -960,6 +1039,7 @@
 {
     "id": "az-network-app-gateway",
     "name": "Azure Application Gateway",
+    "subcategory": "load-balancing",
     "category": "network",
     "description": "",
     "last_updated": "2018-02-18",
@@ -972,6 +1052,7 @@
 {
     "id": "az-network-traffic-manager",
     "name": "Azure Traffic Manager",
+    "subcategory": "dns-management",
     "category": "network",
     "description": "",
     "last_updated": "2018-02-18",
@@ -984,6 +1065,7 @@
 {
     "id": "az-network-dns",
     "name": "Azure DNS",
+    "subcategory": "dns-management",
     "category": "network",
     "description": "",
     "last_updated": "2018-02-18",
@@ -996,6 +1078,7 @@
 {
     "id": "az-network-cdn",
     "name": "Azure CDN",
+    "subcategory": "content-delivery-network",
     "category": "network",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1008,6 +1091,7 @@
 {
     "id": "az-management-automation",
     "name": "Azure Automation",
+    "subcategory": "",
     "category": "management",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1020,6 +1104,7 @@
 {
     "id": "az-management-log-analytics",
     "name": "Azure Log Analytics",
+    "subcategory": "",
     "category": "management",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1032,6 +1117,7 @@
 {
     "id": "az-management-monitor",
     "name": "Azure Monitor",
+    "subcategory": "",
     "category": "management",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1044,6 +1130,7 @@
 {
     "id": "az-management-scheduler",
     "name": "Azure Scheduler",
+    "subcategory": "",
     "category": "management",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1056,6 +1143,7 @@
 {
     "id": "az-management-advisor",
     "name": "Azure Advisor",
+    "subcategory": "",
     "category": "management",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1068,6 +1156,7 @@
 {
     "id": "az-management-arm",
     "name": "Azure Resource Manager",
+    "subcategory": "",
     "category": "management",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1080,6 +1169,7 @@
 {
     "id": "az-dev-vs-app-insights",
     "name": "Visual Studio Application Insights",
+    "subcategory": "",
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1092,6 +1182,7 @@
 {
     "id": "az-dev-vs-team-services",
     "name": "Visual Studio Team Services",
+    "subcategory": "",
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1104,6 +1195,7 @@
 {
     "id": "az-dev-devops-project",
     "name": "Azure DevOps Project",
+    "subcategory": "",
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1116,6 +1208,7 @@
 {
     "id": "az-dev-devtest-labs",
     "name": "Azure DevTest Labs",
+    "subcategory": "",
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1128,6 +1221,7 @@
 {
     "id": "dev-powershell",
     "name": "PowerShell",
+    "subcategory": "",
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1140,6 +1234,7 @@
 {
     "id": "dev-c-sharp",
     "name": "C#",
+    "subcategory": "",
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1152,6 +1247,7 @@
 {
     "id": "dev-f-sharp",
     "name": "F#",
+    "subcategory": "",
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1164,6 +1260,7 @@
 {
     "id": "az-security-center",
     "name": "Azure Security Center",
+    "subcategory": "",
     "category": "security",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1176,6 +1273,7 @@
 {
     "id": "az-security-key-vault",
     "name": "Azure Key Vault",
+    "subcategory": "",
     "category": "security",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1188,6 +1286,7 @@
 {
     "id": "az-security-ddos-protection",
     "name": "Azure DDoS Protection",
+    "subcategory": "",
     "category": "security",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1200,6 +1299,7 @@
 {
     "id": "az-security-policy",
     "name": "Azure Policy",
+    "subcategory": "",
     "category": "security",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1212,6 +1312,7 @@
 {
     "id": "az-security-aad",
     "name": "Azure Active Directory",
+    "subcategory": "",
     "category": "security",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1224,6 +1325,7 @@
 {
     "id": "az-security-aad-domain-services",
     "name": "Azure AD Domain Services",
+    "subcategory": "",
     "category": "security",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1236,6 +1338,7 @@
 {
     "id": "az-security-aad-b2c",
     "name": "Azure Active Directory B2C",
+    "subcategory": "",
     "category": "security",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1248,6 +1351,7 @@
 {
     "id": "az-security-mfa",
     "name": "Azure Multi-Factor Authentication",
+    "subcategory": "",
     "category": "security",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1260,6 +1364,7 @@
 {
     "id": "az-productivity-office",
     "name": "Office 365",
+    "subcategory": "",
     "category": "productivity",
     "description": "",
     "last_updated": "2018-02-18",
@@ -1272,6 +1377,7 @@
 {
     "id": "aws-compute-ecs",
     "name": "EC2 Container Service (ECS)",
+    "subcategory": "container-management",
     "category": "compute",
     "description": "",
     "last_updated": "2018-02-20",
@@ -1284,6 +1390,7 @@
 {
     "id": "aws-compute-elastic-eks",
     "name": "Elastic Container Service for Kubernetes (EKS)",
+    "subcategory": "container-management",
     "category": "compute",
     "description": "",
     "last_updated": "2018-02-20",
@@ -1296,6 +1403,7 @@
 {
     "id": "aws-compute-container-registry",
     "name": "EC2 Container Registry",
+    "subcategory": "container-management",
     "category": "compute",
     "description": "",
     "last_updated": "2018-02-20",
@@ -1308,6 +1416,7 @@
 {
     "id": "aws-compute-lambda",
     "name": "AWS Lambda",
+    "subcategory": "backend-process-logic",
     "category": "compute",
     "description": "AWS Lambda is a compute service that lets you run code without provisioning or managing servers. AWS Lambda executes your code only when needed and scales automatically, from a few requests per day to thousands per second.",
     "last_updated": "2018-02-20",
@@ -1320,6 +1429,7 @@
 {
     "id": "aws-compute-lambda-edge",
     "name": "AWS Lambda@Edge",
+    "subcategory": "backend-process-logic",
     "category": "compute",
     "description": "Lambda@Edge lets you run Lambda functions at AWS Regions and Amazon CloudFront edge locations in response to CloudFront events, without provisioning or managing servers",
     "last_updated": "2018-02-20",
@@ -1332,6 +1442,7 @@
 {
     "id": "aws-compute-batch",
     "name": "AWS Batch",
+    "subcategory": "job-orchestration",
     "category": "compute",
     "description": "AWS Batch enables developers, scientists, and engineers to easily and efficiently run hundreds of thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.",
     "last_updated": "2018-02-20",
@@ -1344,6 +1455,7 @@
 {
     "id": "aws-compute-auto-scaling",
     "name": "AWS Auto Scaling",
+    "subcategory": "scalability",
     "category": "compute",
     "description": "AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. Using AWS Auto Scaling, it’s easy to setup application scaling for multiple resources across multiple services in minutes.",
     "last_updated": "2018-02-20",
@@ -1356,6 +1468,7 @@
 {
     "id": "aws-compute-ec2",
     "name": "Amazon EC2",
+    "subcategory": "virtual-servers",
     "category": "compute",
     "description": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.",
     "last_updated": "2018-02-20",
@@ -1365,10 +1478,23 @@
         "https://aws.amazon.com/ec2/"
     ]
 },
-
+{
+    "id": "aws-compute-time-sync",
+    "name": "Amazon Time Sync Service",
+    "subcategory": "time-sync",
+    "category": "compute",
+    "description": "Time synchronization service delivered over Network Time Protocol (NTP) which uses a fleet of redundant satellite-connected and atomic clocks in each region to deliver a highly accurate reference clock",
+    "last_updated": "2018-03-06",
+    "provider": "AWS",
+    "similar_services":[],
+    "urls": [
+        "https://aws.amazon.com/blogs/aws/keeping-time-with-amazon-time-sync-service/"
+    ]
+},
 {
     "id": "aws-storage-s3",
     "name": "Amazon Simple Storage Service S3",
+    "subcategory": "object-storage",
     "category": "storage",
     "description": "",
     "last_updated": "2018-02-20",
@@ -1381,6 +1507,7 @@
 {
     "id": "aws-storage-elastic-file",
     "name": "Amazon Elastic File System",
+    "subcategory": "shared-files",
     "category": "storage",
     "description": "Amazon Elastic File System (Amazon EFS) provides simple, scalable file storage for use with Amazon EC2 instances in the AWS Cloud. Amazon EFS is easy to use and offers a simple interface that allows you to create and configure file systems quickly and easily. With Amazon EFS, storage capacity is elastic, growing and shrinking automatically as you add and remove files, so your applications have the storage they need, when they need it.",
     "last_updated": "2018-02-20",
@@ -1393,6 +1520,7 @@
 {
     "id": "aws-storage-elastic-block",
     "name": "Amazon Elastic Block Store",
+    "subcategory": "disk-infrastructure",
     "category": "storage",
     "description": "Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud. Each Amazon EBS volume is automatically replicated within its Availability Zone to protect you from component failure, offering high availability and durability.",
     "last_updated": "2018-02-20",
@@ -1405,6 +1533,7 @@
 {
     "id": "aws-storage-gateway",
     "name": "AWS Storage Gateway",
+    "subcategory": "hybrid-storage",
     "category": "storage",
     "description": "AWS Storage Gateway is a hybrid storage service that enables your on-premises applications to seamlessly use AWS cloud storage. You can use the service for backup and archiving, disaster recovery, cloud bursting, storage tiering, and migration.",
     "last_updated": "2018-02-20",
@@ -1417,6 +1546,7 @@
 {
     "id": "aws-storage-import-export",
     "name": "AWS Import/Export",
+    "subcategory": "bulk-transfer",
     "category": "storage",
     "description": "AWS Import/Export is a service that accelerates transferring large amounts of data into and out of AWS using physical storage appliances, bypassing the Internet. AWS Import/Export supports transfers data directly onto and off of storage devices you own using the Amazon high-speed internal network.",
     "last_updated": "2018-02-20",
@@ -1429,6 +1559,7 @@
 {
     "id": "aws-storage-snowball",
     "name": "AWS Snowball",
+    "subcategory": "bulk-transfer",
     "category": "storage",
     "description": "AWS Snowball is a service that accelerates transferring large amounts of data into and out of AWS using physical storage appliances, bypassing the Internet.",
     "last_updated": "2018-02-20",
@@ -1437,5 +1568,18 @@
     "urls": [
         "https://docs.aws.amazon.com/snowball/latest/ug/whatissnowball.html"
     ]
-}
+},
+{
+    "id": "aws-network-virtual-cloud",
+    "name": "Virtual Private Cloud (VPC)",
+    "subcategory": "virtual-networking",
+    "category": "network",
+    "description": "Provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define. ",
+    "last_updated": "2018-03-06",
+    "provider": "AWS",
+    "similar_services":["az-network-vnet"],
+    "urls": [
+        "https://aws.amazon.com/vpc/"
+    ]
+},
 ]
