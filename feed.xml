@@ -1,3 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.devpuzzle.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.devpuzzle.net/" rel="alternate" type="text/html" /><updated>2018-02-18T18:18:31+00:00</updated><id>https://www.devpuzzle.net/</id><title type="html">DEV PUZZLE</title><subtitle>Let’s dive into individual puzzle pieces and see how they combine to create great software</subtitle><author><name>Valdas Maksimavicius</name></author><entry><title type="html">Welcome to DEV PUZZLE!</title><link href="https://www.devpuzzle.net/blog/welcome-to-dev-puzzle/" rel="alternate" type="text/html" title="Welcome to DEV PUZZLE!" /><published>2018-02-15T19:58:13+00:00</published><updated>2018-02-15T19:58:13+00:00</updated><id>https://www.devpuzzle.net/blog/welcome-to-dev-puzzle</id><content type="html" xml:base="https://www.devpuzzle.net/blog/welcome-to-dev-puzzle/">&lt;p&gt;Hi,&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://www.devpuzzle.net/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.devpuzzle.net/" rel="alternate" type="text/html" /><updated>2018-03-06T19:44:05+00:00</updated><id>https://www.devpuzzle.net/</id><title type="html">Dev Puzzle</title><subtitle>Let’s dive into individual puzzle pieces and see how they combine to create great software</subtitle><author><name>Valdas Maksimavicius</name></author><entry><title type="html">Welcome to Dev Puzzle!</title><link href="https://www.devpuzzle.net/blog/welcome-to-dev-puzzle/" rel="alternate" type="text/html" title="Welcome to Dev Puzzle!" /><published>2018-03-03T00:00:00+00:00</published><updated>2018-03-03T00:00:00+00:00</updated><id>https://www.devpuzzle.net/blog/welcome-to-dev-puzzle</id><content type="html" xml:base="https://www.devpuzzle.net/blog/welcome-to-dev-puzzle/">&lt;p&gt;A few months ago I became a MCSE (Microsoft Certified Solutions Expert) for Cloud Platform and Infrastructure. To get this certification I chose to pass three exams: 70-534 Architecting Microsoft Azure Solutions, 70-532 Developing Microsoft Azure Solutions and 70-475 Designing and Implementing Big Data Analytics Solutions.&lt;/p&gt;
 
-&lt;p&gt;To be written :)&lt;/p&gt;</content><author><name>Valdas Maksimavicius</name></author><summary type="html">A unique service about cloud services</summary></entry></feed>
+&lt;p&gt;During the preparation period I had collected many documents, links and videos. I enjoyed the topics and I passed the exams. But today, most probably, I wouldn’t be able to pass it again. The collected links point to non-existing materials, some information is already out of date, some services are obsolete since Microsoft has rolled out new features.&lt;/p&gt;
+
+&lt;p&gt;Azure, AWS or GCP evolve really fast, service upgrades appear on weekly basis making it almost impossible to keep up with the latest updates. The improvement pace will accelerate even more, and becoming a true cloud expert seems to be an impossible goal.&lt;/p&gt;
+
+&lt;p&gt;In addition, to understand the cloud better, I decided to explore AWS and GCP. Because how can I understand what solution is a better fit for a problem, if I am familiar only with Microsoft Azure?&lt;/p&gt;
+
+&lt;p&gt;The above mentioned reasons motivated me to create this web site. To make learning and finding the right cloud tools simple.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-main-objectives&quot;&gt;The main objectives:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;List and compare services provided by different cloud vendors.&lt;/li&gt;
+  &lt;li&gt;Visualize cloud service relationships and limitations.&lt;/li&gt;
+  &lt;li&gt;Simplify service and architecture selection based on your requirements.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;1-list-and-compare-services-provided-by-different-cloud-vendors&quot;&gt;1. List and compare services provided by different cloud vendors&lt;/h2&gt;
+
+&lt;p&gt;This is not a unique thing. There are many lists and comparisons available all over the places. What I have been missing
+Using a grouping based on storage computing, see all available services, understand how those are called in Azure, AWS or in other public clouds
+Based on workload and a problem, what services should I choose and when. If we manage to put proper tags on each service, that the search process would become simple.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-visualize-cloud-service-relationships-and-limitations&quot;&gt;2. Visualize cloud service relationships and limitations&lt;/h2&gt;
+
+&lt;p&gt;Each cloud provider usually has clean a description of what service does, development practices, maybe some tutorials. What I am missing, is a clear view of how a service interacts with other things (e.g. does compute clusters integrate with visualization tools? Does services communicate securily? etc)
+This is what I have been missing. And this most probably is the main reason I am building this site.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-simplify-service-and-architecture-selection-based-on-your-requirements&quot;&gt;3. Simplify service and architecture selection based on your requirements&lt;/h2&gt;
+
+&lt;p&gt;Based on available between service mappings and existing relationships, thanks to tags and required functionality, we can easily showcase how multiple services work together to create a unified architecture.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-devpuzzlenet&quot;&gt;Why devpuzzle.net?&lt;/h2&gt;
+
+&lt;p&gt;I see software as many components that have to integrate well with each other. Individual puzzle pieces should combine to create great software. This is the logic behind devpuzzle.net :)&lt;/p&gt;
+
+&lt;h2 id=&quot;i-need-your-help&quot;&gt;I need your help&lt;/h2&gt;
+
+&lt;p&gt;I can’t achieve the objectives and create the educational value on my own. I need your suggestions. I need your help to list the services, describe relationships, track the latest updates. To make the collaboration process as smooth as possible, the website is &lt;a href=&quot;https://github.com/valdasm/dev-puzzle&quot;&gt;a public repository on GitHub - dev-puzzle&lt;/a&gt;. Take a look, contact me, create a pull request.&lt;/p&gt;
+
+&lt;h2 id=&quot;give-it-a-spin-and-share-your-suggestions&quot;&gt;Give it a spin and share your suggestions!&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;www.devpuzzle.net&quot;&gt;Dev puzzle&lt;/a&gt;&lt;/p&gt;</content><author><name>Valdas Maksimavicius</name></author><category term="azure" /><category term="aws" /><category term="compare services" /><category term="be up to date with cloud" /><summary type="html">Simplify cloud learning and finding the right services</summary></entry></feed>
