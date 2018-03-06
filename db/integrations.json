@@ -2,7 +2,7 @@
 { 
     "parent_service_id": "az-storage-blob",
     "child_service_id": "az-analytics-hdinsight",
-    "details": "Azure Blob Storage supports integration with HDInsight",
+    "details": "Access and analyze data stored in Blob Storage using HDInsight",
     "last_updated": "2018-02-15",
     "status": "Available",
     "urls": [
@@ -13,9 +13,19 @@
 { 
     "parent_service_id": "az-storage-blob",
     "child_service_id": "az-analytics-ml-studio",
-    "details": "Azure Blob Storage supports integration with Azure Machine Learning Studio",
+    "details": "Read and write data to Blob Storage using Azure Machine Learning Studio",
     "last_updated": "2018-02-15",
-    "status": "Available",
+    "status": "Not available",
+    "urls": [
+        "https://asdfas"
+    ]
+},
+{ 
+    "parent_service_id": "az-storage-blob",
+    "child_service_id": "az-analytics-ml-studio",
+    "details": "Test Read and write data to Blob Storage using Azure Machine Learning Studio",
+    "last_updated": "2018-02-15",
+    "status": "Preview",
     "urls": [
         "https://asdfas"
     ]
@@ -23,7 +33,7 @@
 { 
     "parent_service_id": "az-analytics-data-lake",
     "child_service_id": "az-ml-studio",
-    "details": "No Data Lake Store support from Azure Machine Learning Studio",
+    "details": "Azure Machine Learning Studio doesn't support data lake store as input or output",
     "last_updated": "2018-02-15",
     "status": "Not available",
     "urls": [

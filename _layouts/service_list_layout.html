@@ -4,14 +4,8 @@ layout: archive
 
 {{content}}
 
-{% if page.type == nil %}
-  {% for item in site.services %}
+{% for item in site.services %}
+  {% if item.categories contains page.type %}
     <p><a href="{{ item.url }}">{{ item.title }}</a></p>
-  {% endfor %}
-{% else %}
-  {% for item in site.services %}
-    {% if item.categories contains page.type %}
-      <p><a href="{{ item.url }}">{{ item.title }}</a></p>
-    {% endif %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
+{% endfor %}

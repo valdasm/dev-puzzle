@@ -243,3 +243,7 @@ defaults:
       comments: true
       share: true
       related: true
+  - scope:
+      type: services
+    values:
+      comments: true

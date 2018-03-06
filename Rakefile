@@ -14,7 +14,7 @@ end
 
 desc 'Preview on local machine (server with --auto)'
 task :preview => :clean do
-  generate_mapping_json_files
+  generate_integrations_json_files
   generate_service_md_files
   compass('compile') # so that we are sure sass has been compiled before we run the server
   compass('watch &')
@@ -110,11 +110,11 @@ def validate_db_json_files
 end
 
 def generate_data
-  generate_mapping_json_files
+  generate_integrations_json_files
   generate_service_md_files
 end
 
-def generate_mapping_json_files
+def generate_integrations_json_files
   #https://stackoverflow.com/questions/18103113/merge-two-json-with-a-matching-id-in-rails
   #jbuilder
   sh 'rm -rf _data/services'
@@ -123,8 +123,8 @@ def generate_mapping_json_files
   require 'json'
   services_json_file = File.read('db/services.json')
   services_json_parsed = JSON.parse(services_json_file)
-  mappings_json_file = File.read('db/mappings.json')
-  mappings_json_parsed = JSON.parse(mappings_json_file)
+  integrations_json_file = File.read('db/integrations.json')
+  integrations_json_parsed = JSON.parse(integrations_json_file)
 
   services_json_parsed.each do |service|
     new_content = {
@@ -134,26 +134,26 @@ def generate_mapping_json_files
       "urls" => service["urls"],
       "status" => service["status"],
       "last_updated" => service["last_updated"],
-      "mappings" => [
+      "integrations" => [
       ]    
     }
 
-    mappings_json_parsed.each do |mapping|
-      if mapping["parent_service_id"] == service["id"] 
-        new_content["mappings"].push({
-            "child_service_id" => mapping["child_service_id"],
-            "details" => mapping["details"], 
-            "status" => mapping["status"],
-            "ulrs" => mapping["urls"],
-            "last_updated" => mapping["last_updated"]
+    integrations_json_parsed.each do |integration|
+      if integration["parent_service_id"] == service["id"] 
+        new_content["integrations"].push({
+            "child_service_id" => integration["child_service_id"],
+            "details" => integration["details"], 
+            "status" => integration["status"],
+            "ulrs" => integration["urls"],
+            "last_updated" => integration["last_updated"]
           })
-      elsif mapping["child_service_id"] == service["id"]
-        new_content["mappings"].push({
-            "child_service_id" => mapping["parent_service_id"],
-            "details" => mapping["details"], 
-            "status" => mapping["status"],
-            "ulrs" => mapping["urls"],
-            "last_updated" => mapping["last_updated"]
+      elsif integration["child_service_id"] == service["id"]
+        new_content["integrations"].push({
+            "child_service_id" => integration["parent_service_id"],
+            "details" => integration["details"], 
+            "status" => integration["status"],
+            "ulrs" => integration["urls"],
+            "last_updated" => integration["last_updated"]
           })
       end
       

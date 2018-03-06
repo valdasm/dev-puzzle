@@ -2,16 +2,59 @@
 layout: single
 ---
 
+
+
 {% for service in site.data.services[page.type] %}
   <p>{{ service.description }}</p>
-  {% if service.mappings.size == 0 %}
-    There are no available mappings yet! 
-    Take a look at how we describe mappings of <a href="/services/storage/az-storage-blob/" target="_blank">Azure Blob Storage.</a>
-    Feel free to contribute on <a href="https://github.com/valdasm/dev-puzzle" target="_blank">Dev Puzzle project on GitHub.</a>
+  {% assign available_integrations = service.integrations | where:'status', 'Available' %}
+  {% assign preview_integrations = service.integrations | where:'status', 'Preview' %}
+  {% assign unavailable_integrations = service.integrations | where:'status', 'Not available' %}
+
+  {% for url in service.urls %}
+    <a href="{{url}}">{{ url }}</a>
+  {% endfor %}
+
+  {% if service.integrations.size == 0 %}
+    There are no described integrations yet! 
   {% else %}  
-    <h4>Mappings</h4>
-    {% for mapping in service.mappings %}
-      <p>{{ mapping.details }}</p>
-    {% endfor %}  
+    <h3>Integrations</h3>
+    {% if available_integrations.size != 0 %}
+      <hr>
+      <strong>Available</strong>
+      {% for integration in available_integrations  %}
+        <p>{{ integration.child_service_id }}</p>
+        <p>{{ integration.details }}</p>
+        {% for url in integration.urls %}
+          <a href="{{url}}">{{ url }}</a>
+        {% endfor %}
+      {% endfor %} 
+    {% endif %} 
+
+    {% if preview_integrations.size != 0 %}
+      <hr>
+      <strong>Preview</strong>
+      {% for integration in preview_integrations  %}
+        <p>{{ integration.child_service_id }}</p>
+        <p>{{ integration.details }}</p>
+        {% for url in integration.urls %}
+          <a href="{{url}}">{{ url }}</a>
+        {% endfor %}
+      {% endfor %}
+    {% endif %}   
+
+    {% if unavailable_integrations.size != 0 %}
+      <hr>
+      <strong>Not available</strong>
+      {% for integration in unavailable_integrations %}
+        <p>{{ integration.child_service_id }}</p>
+        <p>{{ integration.details }}</p>
+        {% for url in integration.urls %}
+          <a href="{{url}}">{{ url }}</a>
+        {% endfor %}
+      {% endfor %} 
+    {% endif %} 
   {% endif %}
 {% endfor %}
+
+<hr>
+<p>Something missing? Would like to to add available integration? Comment below or contribute on <a href="https://github.com/valdasm/dev-puzzle" target="_blank">Dev Puzzle project on GitHub.</a></p>

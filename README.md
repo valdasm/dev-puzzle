@@ -24,25 +24,22 @@ There are two ways:
 
 * Services analytics-jupyter; analytics-python don't have corresponding services, thus are missing in view.
 * Add json data validation test; execute on travis build
-* Description and links for all services
 * There should be at least one mapping for every service
 * Landing page (nice images, link to WHY post, example of mappings)
 * D3.JS relationships graph
 * Create instruction how to contribute (service, mappings files)
+* Review blog post Welcome To Dev Puzzle
 
 ### Doing
-* Blog post Welcome To Dev Puzzle
-* Listing all services, Azure first and add corresponding AWS
 
+* Listing all Azure and AWS services, links, descriptions
+* Services
 
 ### Done
-[x] Message when mappings are not available.
-
-[x] Fix templates to use template structure. Currently you use plain structure without indentations.
-
-[x] Setup custom domain, build, deployment, HTTPS
-
-[x] Add subcategories
+* Message when mappings are not available.
+* Fix templates to use template structure. Currently you use plain structure without indentations.
+* Setup custom domain, build, deployment, HTTPS
+* Add subcategories
 
 
 ### Dismissed

@@ -11,9 +11,8 @@ main:
 
 services:
   - title: Services
+    url: /services/ 
     children:
-      - title: "All"
-        url: /services/  
       - title: "Analytics"
         url: /services/analytics/
       - title: "Compute"
@@ -37,7 +36,8 @@ services:
       - title: "Web & Mobile"
         url: /services/web-mobile/
 
-  - title: Architectures
+  - title: Architecture
+    url: /architecture/
     children:
       - title: "Plan"
         url: /architecture/
