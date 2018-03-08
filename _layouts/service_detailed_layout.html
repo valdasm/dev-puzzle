@@ -22,11 +22,7 @@ layout: single
       <hr>
       <strong>Available</strong>
       {% for integration in available_integrations  %}
-        <p>{{ integration.child_service_id }}</p>
-        <p>{{ integration.details }}</p>
-        {% for url in integration.urls %}
-          <a href="{{url}}">{{ url }}</a>
-        {% endfor %}
+        {% include integration_details.html %}
       {% endfor %} 
     {% endif %} 
 
@@ -34,11 +30,7 @@ layout: single
       <hr>
       <strong>Preview</strong>
       {% for integration in preview_integrations  %}
-        <p>{{ integration.child_service_id }}</p>
-        <p>{{ integration.details }}</p>
-        {% for url in integration.urls %}
-          <a href="{{url}}">{{ url }}</a>
-        {% endfor %}
+        {% include integration_details.html %}
       {% endfor %}
     {% endif %}   
 
@@ -46,11 +38,7 @@ layout: single
       <hr>
       <strong>Not available</strong>
       {% for integration in unavailable_integrations %}
-        <p>{{ integration.child_service_id }}</p>
-        <p>{{ integration.details }}</p>
-        {% for url in integration.urls %}
-          <a href="{{url}}">{{ url }}</a>
-        {% endfor %}
+        {% include integration_details.html %}
       {% endfor %} 
     {% endif %} 
   {% endif %}

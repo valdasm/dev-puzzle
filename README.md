@@ -19,6 +19,7 @@ There are two ways:
 * Compare page AWS, Azure, Google
 * Rename services into cloud?
 * Filter based on cloud provider 
+* Breadcrumbs aligning with content 
 
 ### TODO
 

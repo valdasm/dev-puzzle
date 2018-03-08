@@ -15,7 +15,7 @@ end
 desc 'Preview on local machine (server with --auto)'
 task :preview => :clean do
   generate_integrations_json_files
-  generate_service_md_files
+  generate_service_details_md_files
   compass('compile') # so that we are sure sass has been compiled before we run the server
   compass('watch &')
   jekyll('serve --watch')
@@ -111,7 +111,8 @@ end
 
 def generate_data
   generate_integrations_json_files
-  generate_service_md_files
+  generate_service_comparison_csv_files
+  generate_service_details_md_files
 end
 
 def generate_integrations_json_files
@@ -164,11 +165,24 @@ def generate_integrations_json_files
   end
 end
 
-def generate_service_md_files
+def generate_service_comparison_csv_files
+  sh 'rm -rf _data/service_comparison'
+  sh 'mkdir _data/service_comparison'
+  
+  # Get all categories and subcategories
+  # 1 loop through categories
+  # 2 loop through subcategories
+  # 3 put subcategory, azure, aws; order by category, then subcategory, then provider
+  # 4 how to deal with links, all are based on id
+  
+  
+end
+
+def generate_service_details_md_files
   sh 'rm -rf _services'
   sh 'mkdir _services'
   require 'json'
-  service_template_file = File.read('_layouts/service_template.md')
+  service_template_file = File.read('_layouts/service_detailed.md')
   services_json_file = File.read('db/services.json')
   services_json_parsed = JSON.parse(services_json_file)
   services_json_parsed.each do |service|

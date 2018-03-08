@@ -1,0 +1,5 @@
+<p>{{ integration.child_service_id }}</p>
+<p>{{ integration.details }}</p>
+{% for url in integration.urls %}
+  <a href="{{url}}">{{ url }}</a>
+{% endfor %}
