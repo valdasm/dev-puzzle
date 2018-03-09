@@ -500,7 +500,7 @@
 },
 {
     "id": "az-compute-aks",
-    "name": "Azure Container Service (AKS, Kubernetes)",
+    "name": "Azure Container Service (AKS / Kubernetes)",
     "subcategory": "container-management",
     "category": "compute",
     "description": "AKS manages your hosted Kubernetes environment, making it quick and easy to deploy and manage containerized applications without container orchestration expertise.",
@@ -913,7 +913,7 @@
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "Apache",
+    "provider": "Other",
     "similar_services":[],
     "urls": [
         
@@ -926,7 +926,7 @@
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "Free",
+    "provider": "Other",
     "similar_services":[],
     "urls": [
         
@@ -939,7 +939,7 @@
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "Free",
+    "provider": "Other",
     "similar_services":[],
     "urls": [
         
@@ -952,7 +952,7 @@
     "category": "analytics",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "Free",
+    "provider": "Other",
     "similar_services":[],
     "urls": [
         
@@ -1225,7 +1225,7 @@
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "Microsoft",
+    "provider": "Other",
     "similar_services":[],
     "urls": [
         
@@ -1238,7 +1238,7 @@
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "Microsoft",
+    "provider": "Other",
     "similar_services":[],
     "urls": [
         
@@ -1251,7 +1251,7 @@
     "category": "dev-tools",
     "description": "",
     "last_updated": "2018-02-18",
-    "provider": "Microsoft",
+    "provider": "Other",
     "similar_services":[],
     "urls": [
         
