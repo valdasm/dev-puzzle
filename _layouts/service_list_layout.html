@@ -3,9 +3,22 @@ layout: archive
 ---
 {{content}}
 
-{% for item in site.services %}
-  {% if item.categories contains page.type %}
-    <p><a href="{{ item.url }}">{{ item.title }}</a></p>
-  {% endif %}
-{% endfor %}
+{% assign page_data = site.data.service_comparison[page.type] %}
+
+<table>
+    <thead>
+    {% for column in page_data[0] %}
+        <th>{{ column[0] }}</th>
+    {% endfor %}
+    </thead>
+    <tbody>
+    {% for row in page_data %}
+        <tr>
+        {% for cell in row %}
+            <td>{{ cell[1] }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
 

@@ -1,5 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
-_data/services
+_data/service_details
+_data/service_comparison
 _services

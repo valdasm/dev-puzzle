@@ -4,7 +4,7 @@ layout: single
 
 
 
-{% for service in site.data.services[page.type] %}
+{% for service in site.data.service_details[page.type] %}
   <p>{{ service.description }}</p>
   {% assign available_integrations = service.integrations | where:'status', 'Available' %}
   {% assign preview_integrations = service.integrations | where:'status', 'Preview' %}

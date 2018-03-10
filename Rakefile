@@ -6,8 +6,8 @@ require 'csv'
 $db_services_path = 'db/services.json'
 $db_integrations_path = 'db/integrations.json'
 $service_detailed_template_path = '_layouts/service_detailed.md'
-$services_data_path = '_data/services/'
-$services_comparison_path = '_data/service_comparison/'
+$generated_service_details_path = '_data/service_details/'
+$generated_service_comparison_path = '_data/service_comparison/'
 $services_md_path = '_services/'
 
 task :default => :preview
@@ -23,8 +23,7 @@ end
 
 desc 'Preview on local machine (server with --auto)'
 task :preview => :clean do
-  generate_integrations_json_files
-  generate_service_details_md_files
+  generate_data
   compass('compile') # so that we are sure sass has been compiled before we run the server
   compass('watch &')
   jekyll('serve --watch')
@@ -46,7 +45,7 @@ task :check_links do
   begin
     require 'anemone'
 
-    root = 'http://localhost:4000/'
+    root = "http://localhost:4000/"
     puts 'Checking links with anemone ... '
     # check-links --no-warnings http://localhost:4000
     Anemone.crawl(root, :discard_page_bodies => true) do |anemone|
@@ -59,14 +58,14 @@ task :check_links do
               broken_links[referrer] << page
             end
           else
-            puts 'OK #{page.url}'
+            puts "OK #{page.url}"
           end
         end
         puts '\n\nLinks with issues: '
         broken_links.each do |referrer, pages|
-          puts '#{referrer.url} contains the following broken links:'
+          puts "#{referrer.url} contains the following broken links:"
           pages.each do |page|
-            puts '  HTTP #{page.code} #{page.url}'
+            puts "  HTTP #{page.code} #{page.url}"
           end
         end
       end
@@ -94,12 +93,12 @@ def cleanup
   sh 'rm -rf _site'
 
   #placeholder for service comparing csv table data
-  sh 'rm -rf ' + $services_comparison_path
-  sh 'mkdir ' + $services_comparison_path
+  sh 'rm -rf ' + $generated_service_comparison_path
+  sh 'mkdir ' + $generated_service_comparison_path
 
   #placeholder for service specific json data
-  sh 'rm -rf ' + $services_data_path
-  sh 'mkdir ' + $services_data_path
+  sh 'rm -rf ' + $generated_service_details_path
+  sh 'mkdir ' + $generated_service_details_path
 
   #placeholder for generated service pages
   sh 'rm -rf ' + $services_md_path
@@ -131,7 +130,7 @@ end
 def generate_data
   cleanup
   generate_integrations_json_files
-  generate_service_comparison_csv_files
+  generate_service_comparison_files
   generate_service_details_md_files
 end
 
@@ -178,40 +177,73 @@ def generate_integrations_json_files
     end 
     array_holder = []
     array_holder.push(new_content);
-    File.open($services_data_path + service['id']+'.json', 'w') {|file| file.write(array_holder.to_json) }
+    File.open($generated_service_details_path + service['id']+'.json', 'w') {|file| file.write(array_holder.to_json) }
   end
 end
 
-def generate_service_comparison_csv_files
-
-
-  # Get all categories and subcategories
-  # 1 loop through categories
-  # 2 loop through subcategories
-  # 3 put subcategory, azure, aws; order by category, then subcategory, then provider
-  # 4 how to deal with links, all are based on id
-  #https://gist.github.com/ndarville/6929cf728e3d962b051bb4c5dd177c15
-  services_comparison = [];
-
+def generate_service_comparison_files
   services_json_file = File.read($db_services_path)
   services_json_parsed = JSON.parse(services_json_file)
-  cleaned_services = services_json_parsed
+
+  categories = services_json_parsed.uniq{ |s| s['category'] }.map{|s| s['category']}
+#  categories.push('all')
+
+  categories.each do |category|
+    generate_service_csv_file(category, services_json_parsed)
+  end
+  
+end
+
+def generate_service_csv_file(filter, data_json)
+  services_comparison = []
+  service_spcific = []
+  header = Array.new(4, '')
+  header[0] = 'Category'
+  header[1] = 'Subcategory'
+  header[2] = 'Azure'
+  header[3] = 'AWS'
+  services_comparison.push(header) 
+  service_spcific.push(header)
+
+
+  if filter != 'all'
+    data_json = data_json.select{ |s| s['category'] == filter}
+  end
+  
+  cleaned_services = data_json
             .reject{|s| s['provider'] == 'Other'}
             .sort_by {|s| [s['category'], s['subcategory'], s['provider']]}
-            .group_by{|g| g['subcategory'] }
-            
+            .group_by{|g| [g['category'], g['subcategory']] }
+
+  previous_category = ''            
   cleaned_services.each do |service|
-    #   line.push(service[1][0]['category'])
-    #   line.push(service[0])
-    #   service[1].each do |provider|
-    #     line.push(provider['name'])
-    #   end 
-    # services_comparison.push(line);   
+    
+    line = Array.new(4, '')
+
+    curr_category = service[0][0]
+    if previous_category != curr_category
+      line[0] = curr_category
+      previous_category = curr_category
+      services_comparison.push(line);
+      line = Array.new(4, '')
+    end
+    curr_subcategory = service[0][1]
+    line[1] = curr_subcategory
+
+    service[1].each do |child|
+      record = '<a href="/services/'+ curr_category +'/' + child['id'] +'/' +'">' + child['name'] + '</a><hr>'
+
+      if child['provider'] == 'Azure'
+        line[2] += record
+      elsif child['provider'] == 'AWS'
+        line[3] += record
+      end
+    end 
+    services_comparison.push(line);   
   end
-
+  
   csv_str = services_comparison.inject([]) { |csv, row|  csv << CSV.generate_line(row) }.join('')
-  File.open($services_comparison_path + 'services.csv', 'w') {|f| f.puts csv_str}
-
+  File.open($generated_service_comparison_path + filter +'.csv', 'w') {|f| f.puts csv_str}
 end
 
 def generate_service_details_md_files

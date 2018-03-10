@@ -16,7 +16,6 @@ There are two ways:
 ### BACKLOG
 * Add tags page for cloud services. Tag cloud
 * Populate services with tags, use this for a broader search; As of know people without Azure knowledge can't find correct services
-* Compare page AWS, Azure, Google
 * Rename services into cloud?
 * Filter based on cloud provider 
 * Breadcrumbs aligning with content 
@@ -34,13 +33,14 @@ There are two ways:
 ### Doing
 
 * Listing all Azure and AWS services, links, descriptions
-* Services
+
 
 ### Done
 * Message when mappings are not available.
 * Fix templates to use template structure. Currently you use plain structure without indentations.
 * Setup custom domain, build, deployment, HTTPS
 * Add subcategories
+* Compare page AWS, Azure, Google
 
 
 ### Dismissed

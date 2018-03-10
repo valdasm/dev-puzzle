@@ -53,4 +53,4 @@ I can't achieve the objectives and create the educational value on my own. I nee
 
 ## Give it a spin and share your suggestions!
 
-[Dev puzzle](www.devpuzzle.net)
+[Dev puzzle](https://www.devpuzzle.net)
