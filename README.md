@@ -41,7 +41,7 @@ There are two ways:
 * Setup custom domain, build, deployment, HTTPS
 * Add subcategories
 * Compare page AWS, Azure, Google
-
+* Added FAQ section
 
 ### Dismissed
 * Change permalink for blog posts collection: REASON: Failing breadcrumbs + no actual value for a reader. Date is visible now in URL.

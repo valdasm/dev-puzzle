@@ -1,0 +1,29 @@
+.faq {
+    h1 {
+        text-align: center;
+    }
+  
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+
+    @media (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+
+}
+
+
+

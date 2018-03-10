@@ -5,7 +5,7 @@ require 'csv'
 
 $db_services_path = 'db/services.json'
 $db_integrations_path = 'db/integrations.json'
-$service_detailed_template_path = '_layouts/service_detailed.md'
+$service_detailed_template_path = '_data/service_detailed.md'
 $generated_service_details_path = '_data/service_details/'
 $generated_service_comparison_path = '_data/service_comparison/'
 $services_md_path = '_services/'
