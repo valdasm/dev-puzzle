@@ -22,18 +22,19 @@ There are two ways:
 
 ### TODO
 
-* Services analytics-jupyter; analytics-python don't have corresponding services, thus are missing in view.
-* Add json data validation test; execute on travis build
 * There should be at least one mapping for every service
 * Landing page (nice images, link to WHY post, example of mappings)
+* Review blog post Welcome To Dev Puzzle
+* Services analytics-jupyter; analytics-python don't have corresponding services, thus are missing in view.
+* Add json data validation test; execute on travis build
 * D3.JS relationships graph
 * Create instruction how to contribute (service, mappings files)
-* Review blog post Welcome To Dev Puzzle
+* Add footer with major links
+* Add favicon - logo.svg saved to assets/images - should be recreated 
 
 ### Doing
 
 * Listing all Azure and AWS services, links, descriptions
-
 
 ### Done
 * Message when mappings are not available.

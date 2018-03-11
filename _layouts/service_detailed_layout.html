@@ -20,7 +20,7 @@ layout: single
     <h3>Integrations</h3>
     {% if available_integrations.size != 0 %}
       <hr>
-      <strong>Available</strong>
+      <strong class="notice--success">Available</strong>
       {% for integration in available_integrations  %}
         {% include integration_details.html %}
       {% endfor %} 
@@ -28,7 +28,7 @@ layout: single
 
     {% if preview_integrations.size != 0 %}
       <hr>
-      <strong>Preview</strong>
+      <strong class="notice--warning">Preview</strong>
       {% for integration in preview_integrations  %}
         {% include integration_details.html %}
       {% endfor %}
@@ -36,7 +36,7 @@ layout: single
 
     {% if unavailable_integrations.size != 0 %}
       <hr>
-      <strong>Not available</strong>
+      <strong class="notice--danger">Not available</strong>
       {% for integration in unavailable_integrations %}
         {% include integration_details.html %}
       {% endfor %} 
