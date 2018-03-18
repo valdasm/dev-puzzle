@@ -49,6 +49,16 @@
     "last_updated": "2018-02-17",
     "provider": "Azure",
     "similar_services":["aws-storage-elastic-block"],
+    "features":[
+        {
+            "name": "Premium storage",
+            "description": "Premium Storage is specifically designed for Azure Virtual Machine workloads requiring consistent high performance and low latency. Premium Storage is currently available only for storing data on disks used by Azure Virtual Machines."
+        },
+        {
+            "name": "Standard storage",
+            "description": "Standard Storage delivers reliable, low-cost disk support for VMs running latency-insensitive workloads."
+        }
+    ],
     "urls": [
         "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/about-disks-and-vhds"
     ]
@@ -134,15 +144,15 @@
 },
 {
     "id": "az-db-sql-db",
-    "name": "Azure SQL",
+    "name": "SQL Database",
     "subcategory": "relational-database",
     "category": "database",
-    "description": "",
+    "description": "SQL Database is a high-performance, reliable, and secure database you can use to build data-driven applications and websites, without needing to manage infrastructure.",
     "last_updated": "2018-02-17",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-db-rds"],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/sql-database/"
     ]
 },
 {
@@ -150,39 +160,54 @@
     "name": "Azure Table Storage",
     "subcategory": "nosql-key-value-storage",
     "category": "database",
-    "description": "",
+    "description": "A non-relational data store for semi-structured data.",
     "last_updated": "2018-02-17",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":[
+        "aws-db-dynamo",
+        "aws-storage-s3"
+    ],
     "urls": [
-        
+        "https://azure.microsoft.com/services/storage/tables/"
     ]
 },
 {
-    "id": "az-db-db-migration",
+    "id": "az-db-migration",
     "name": "Azure Database Migration Service",
     "subcategory": "database-migration",
     "category": "database",
-    "description": "",
+    "description": "Focuses on migration of database schema and data from one database format to a specific database technology in the cloud. It can migrate databases at scale.",
     "last_updated": "2018-02-17",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-        
+        "https://azure.microsoft.com/services/database-migration/"
     ]
 },
-
+{
+    "id": "az-db-migration-assistant",
+    "name": "Data Migration Assistant (DMA)",
+    "subcategory": "database-migration",
+    "category": "database",
+    "description": "The Data Migration Assistant (DMA) enables you to upgrade to a modern data platform by detecting compatibility issues that can impact database functionality in your new version of SQL Server and Azure SQL Database.",
+    "last_updated": "2018-02-17",
+    "provider": "Azure",
+    "similar_services":[],
+    "urls": [
+        "https://docs.microsoft.com/en-us/sql/dma/dma-overview"
+    ]
+},
 {
     "id": "az-db-redis-cache",
     "name": "Azure Redis Cache",
     "subcategory": "caching",
     "category": "database",
-    "description": "",
+    "description": "An in-memory–based, distributed-caching service that provides a high-performance store typically used to offload non-transactional work from a database.",
     "last_updated": "2018-02-17",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-db-elasticache"],
     "urls": [
-        
+        "https://azure.microsoft.com/services/cache/"
     ]
 },
 {
@@ -190,12 +215,11 @@
     "name": "Azure Cosmos DB",
     "subcategory": "nosql-document-storage",
     "category": "database",
-    "description": "",
-    "last_updated": "2018-02-17",
+    "description": "A globally-distributed, multi-model database that natively supports multiple data models: key-value, documents, graphs, and columnar.",    "last_updated": "2018-02-17",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-        
+        "https://azure.microsoft.com/services/documentdb/"
     ]
 },
 {
@@ -573,10 +597,10 @@
     "name": "Azure HDInsight",
     "subcategory": "data-processing",
     "category": "analytics",
-    "description": "",
+    "description": "Supports technologies that break up large data processing tasks into multiple jobs, and then combine the results to enable massive parallelism.",
     "last_updated": "2018-02-15",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-analytics-emr"],
     "urls": [
         "https://azure.microsoft.com/services/hdinsight/"
     ]
@@ -599,10 +623,10 @@
     "name": "Azure SQL Data Warehouse",
     "subcategory": "data-warehouse",
     "category": "analytics",
-    "description": "",
+    "description": "A fully managed data warehouse that analyzes data using business intelligence tools. ",
     "last_updated": "2018-02-17",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-analytics-redshift"],
     "urls": [
         "https://azure.microsoft.com/services/sql-data-warehouse/"
     ]
@@ -662,14 +686,14 @@
 {
     "id": "az-analytics-asa",
     "name": "Azure Stream Analytics",
-    "subcategory": "streaming-data",
+    "subcategory": "analytics",
     "category": "analytics",
-    "description": "",
+    "description": "Azure Stream Analytics is a managed event-processing engine set up real-time analytic computations on streaming data. The data can come from devices, sensors, web sites, social media feeds, applications, infrastructure systems, and more.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-analytics-kinesis"],
     "urls": [
-        
+        "https://azure.microsoft.com/services/stream-analytics/"
     ]
 },
 {
@@ -677,12 +701,17 @@
     "name": "Azure Data Factory V1",
     "subcategory": "data-orchestration",
     "category": "analytics",
-    "description": "",
+    "description": "Processes and moves data between different compute and storage services, as well as on-premises data sources at specified intervals. ",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":[
+        "az-analytics-adf-v2",
+        "aws-analytics-data-pipeline",
+        "aws-analytics-glue"
+    ],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/data-factory/v1/data-factory-introduction",
+        "https://docs.microsoft.com/en-us/azure/data-factory/compare-versions"
     ]
 },
 {
@@ -690,12 +719,17 @@
     "name": "Azure Data Factory V2",
     "subcategory": "data-orchestration",
     "category": "analytics",
-    "description": "",
+    "description": "Processes and moves data between different compute and storage services, as well as on-premises data sources at specified intervals. ",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":[
+        "az-analytics-adf-v1",
+        "aws-analytics-data-pipeline",
+        "aws-analytics-glue"
+    ],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/data-factory/",
+        "https://docs.microsoft.com/en-us/azure/data-factory/compare-versions"
     ]
 },
 {
@@ -740,14 +774,14 @@
 {
     "id": "az-analytics-lake-analytics",
     "name": "Azure Data Lake Analytics",
-    "subcategory": "data-processing",
+    "subcategory": "analytics",
     "category": "analytics",
-    "description": "",
+    "description": "Develop and run massively parallel data transformation and processing programs in U-SQL, R, Python, and .NET over petabytes of data. With no infrastructure to manage, you can process data on demand, scale instantly, and only pay per job.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-analytics-kinesis-analytics"],
     "urls": [
-        
+        "https://azure.microsoft.com/services/data-lake-analytics/"
     ]
 },
 {
@@ -1002,12 +1036,12 @@
     "name": "Azure ExpressRoute",
     "subcategory": "dedicated-network",
     "category": "network",
-    "description": "",
-    "last_updated": "2018-02-18",
+    "description": "Establishes a dedicated, private network connection from a location to the cloud provider.",
+    "last_updated": "2018-03-16",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-network-direct-connect"],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/expressroute/"
     ]
 },
 {
@@ -1015,12 +1049,12 @@
     "name": "Azure VPN Gateway",
     "subcategory": "cross-premises-connectivity",
     "category": "network",
-    "description": "",
+    "description": "Connects Azure virtual networks to other Azure virtual networks or customer on-premises networks. It also supports VPN tunneling. ",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-network-vpn-gateway"],
     "urls": [
-        
+        "https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways"
     ]
 },
 {
@@ -1028,12 +1062,12 @@
     "name": "Azure Load Balancer",
     "subcategory": "load-balancing",
     "category": "network",
-    "description": "",
+    "description": "Azure Load Balancer supports TCP/UDP-based protocols such as HTTP, HTTPS, and SMTP, and protocols used for real-time voice and video messaging applications.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-network-elastic-load-balancing"],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/load-balancer/"
     ]
 },
 {
@@ -1041,12 +1075,12 @@
     "name": "Azure Application Gateway",
     "subcategory": "load-balancing",
     "category": "network",
-    "description": "",
+    "description": "Azure Application Gateway is a dedicated virtual appliance providing application delivery controller (ADC) as a service. It offers various layer 7 load balancing capabilities for your application. ",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-network-elastic-load-balancing"],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/application-gateway/"
     ]
 },
 {
@@ -1054,10 +1088,10 @@
     "name": "Azure Traffic Manager",
     "subcategory": "dns-management",
     "category": "network",
-    "description": "",
+    "description": "Hosts domain names, routes users to Internet applications, manages traffic to apps, and improves app availability with automatic failover",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-network-route-53"],
     "urls": [
         
     ]
@@ -1067,12 +1101,12 @@
     "name": "Azure DNS",
     "subcategory": "dns-management",
     "category": "network",
-    "description": "",
+    "description": "Manage DNS records using the same credentials, billing, and support contract as other Azure services.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-network-route-53"],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/dns/"
     ]
 },
 {
@@ -1080,12 +1114,12 @@
     "name": "Azure CDN",
     "subcategory": "content-delivery-network",
     "category": "network",
-    "description": "",
+    "description": "Global content delivery network that transfers audio, video, applications, images, and other files.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-network-cloud-front"],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/cdn/"
     ]
 },
 {
@@ -1580,6 +1614,222 @@
     "similar_services":["az-network-vnet"],
     "urls": [
         "https://aws.amazon.com/vpc/"
+    ]
+},
+{
+    "id": "aws-network-vpn-gateway",
+    "name": "VPN Gateway",
+    "subcategory": "cross-premises-connectivity",
+    "category": "network",
+    "description": "A customer gateway is the anchor on your side of that connection. It can be a physical or software appliance. The anchor on the AWS side of the VPN connection is called a virtual private gateway.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-network-vpn-gateway"],
+    "urls": [
+        "https://docs.aws.amazon.com/AmazonVPC/latest/NetworkAdminGuide/Introduction.html"
+    ]
+},
+{
+    "id": "aws-network-route-53",
+    "name": "Route 53",
+    "subcategory": "dns-management",
+    "category": "network",
+    "description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. ",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":[
+        "az-network-dns",
+        "az-network-traffic-manager"
+    ],
+    "urls": [
+        "https://aws.amazon.com/route53/"
+    ]
+},
+{
+    "id": "aws-network-cloud-front",
+    "name": "Cloud Front",
+    "subcategory": "content-delivery-network",
+    "category": "network",
+    "description": "Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users. ",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-network-cdn"],
+    "urls": [
+        "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html"
+    ]
+},
+{
+    "id": "aws-network-direct-connect",
+    "name": "Direct Connect",
+    "subcategory": "dedicated-network",
+    "category": "network",
+    "description": "AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-network-express-route"],
+    "urls": [
+        "https://aws.amazon.com/directconnect/"
+    ]
+},
+{
+    "id": "aws-network-elastic-load-balancing",
+    "name": "Elastic Load Balancing",
+    "subcategory": "load-balancing",
+    "category": "network",
+    "description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":[
+        "az-network-load-balancer",
+        "az-network-app-gateway"
+    ],
+    "urls": [
+        "https://aws.amazon.com/elasticloadbalancing/"
+    ]
+},
+{
+    "id": "aws-db-rds",
+    "name": "Amazon Relational Database Service (RDS)",
+    "subcategory": "relational-database",
+    "category": "database",
+    "description": "Amazon RDS is available on several database instance types - optimized for memory, performance or I/O - and provides you with six familiar database engines to choose from, including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, and Microsoft SQL Server.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-db-sql-db"],
+    "urls": [
+        "https://aws.amazon.com/rds/"
+    ]
+},
+{
+    "id": "aws-db-dynamo",
+    "name": "Amazon DynamoDB",
+    "subcategory": "nosql-document-storage",
+    "category": "database",
+    "description": "Amazon DynamoDB is a fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale.",
+    "last_updated": "2018-02-17",
+    "provider": "AWS",
+    "similar_services":[
+        "az-db-cosmos-db",
+        "az-db-table"
+    ],
+    "urls": [
+        "https://aws.amazon.com/dynamodb/"
+    ]
+},
+{
+    "id": "aws-db-neptune",
+    "name": "Neptune",
+    "subcategory": "nosql-document-storage",
+    "category": "database",
+    "description": "Amazon Neptune is a fast, reliable, fully-managed graph database service that makes it easy to build and run applications that work with highly connected datasets. ",
+    "last_updated": "2018-02-17",
+    "provider": "AWS",
+    "similar_services":["az-db-cosmos-db"],
+    "urls": [
+        "https://aws.amazon.com/neptune/"
+    ]
+},
+{
+    "id": "aws-db-elasticache",
+    "name": "ElastiCache",
+    "subcategory": "caching",
+    "category": "database",
+    "description": "Amazon ElastiCache offers fully managed Redis and Memcached. Seamlessly deploy, operate, and scale popular open source compatible in-memory data stores.",
+    "last_updated": "2018-02-17",
+    "provider": "AWS",
+    "similar_services":["az-db-redis-cache"],
+    "urls": [
+        "https://aws.amazon.com/elasticache/"
+    ]
+},
+{
+    "id": "aws-db-migration",
+    "name": "AWS Database Migration Service",
+    "subcategory": "database-migration",
+    "category": "database",
+    "description": "The service supports homogenous migrations such as Oracle to Oracle, as well as heterogeneous migrations between different database platforms, such as Oracle to Amazon Aurora or Microsoft SQL Server to MySQL. It also allows you to stream data to Amazon Redshift, Amazon DynamoDB, and Amazon S3 from any of the supported sources including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, SAP ASE, SQL Server and MongoDB, enabling consolidation and easy analysis of data in the petabyte-scale data warehouse.",
+    "last_updated": "2018-03-18",
+    "provider": "AWS",
+    "similar_services":[
+        "az-db-migration",
+        "az-db-migration-assistant"
+    ],
+    "urls": [
+        "https://aws.amazon.com/dms/"
+    ]
+},
+{
+    "id": "aws-analytics-redshift",
+    "name": "Redshift",
+    "subcategory": "data-warehouse",
+    "category": "analytics",
+    "description": "Amazon Redshift is a fast, fully managed data warehouse that makes it simple and cost-effective to analyze all your data using standard SQL and your existing Business Intelligence (BI) tools.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-analytics-sql-dw"],
+    "urls": [
+        "https://aws.amazon.com/redshift/"
+    ]
+},
+{
+    "id": "aws-analytics-emr",
+    "name": "Elastic MapReduce (EMR)",
+    "subcategory": "data-processing",
+    "category": "analytics",
+    "description": "Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. You can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in Amazon EMR, and interact with data in other AWS data stores such as Amazon S3 and Amazon DynamoDB.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-analytics-hdinsight"],
+    "urls": [
+        "https://aws.amazon.com/emr/"
+    ]
+},
+{
+    "id": "aws-analytics-data-pipeline",
+    "name": "AWS Data Pipeline",
+    "subcategory": "data-orchestration",
+    "category": "analytics",
+    "description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. ",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":[
+        "az-analytics-adf-v1",
+        "az-analytics-adf-v2"
+    ],
+    "urls": [
+        "https://aws.amazon.com/datapipeline/"
+    ]
+},
+{
+    "id": "aws-analytics-glue",
+    "name": "AWS Glue",
+    "subcategory": "data-orchestration",
+    "category": "analytics",
+    "description": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":[
+        "az-analytics-adf-v1",
+        "az-analytics-adf-v2"
+    ],
+    "urls": [
+        "https://aws.amazon.com/glue/"
+    ]
+},
+{
+    "id": "aws-analytics-kinesis-analytics",
+    "name": "Amazon Kinesis Data Analytics",
+    "subcategory": "analytics",
+    "category": "analytics",
+    "description": "Amazon Kinesis Data Analytics is the easiest way to process streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. ",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":[
+        "az-analytics-asa",
+        "az-analytics-lake-analytics"
+    ],
+    "urls": [
+        "https://aws.amazon.com/kinesis/data-analytics/"
     ]
 }
 ]

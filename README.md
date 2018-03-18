@@ -34,7 +34,7 @@ There are two ways:
 
 ### Doing
 
-* Listing all Azure and AWS services, links, descriptions
+* Listing all Azure and AWS services, links, descriptions (stopped on streamin data)
 
 ### Done
 * Message when mappings are not available.
