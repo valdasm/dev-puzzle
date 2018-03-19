@@ -1,46 +1,7 @@
 {
     "id": "aws-analytics-",
-    "name": "",
-    "subcategory": "",
-    "category": "analytics",
-    "description": "",
-    "last_updated": "2018-03-16",
-    "provider": "AWS",
-    "similar_services":[],
-    "urls": [
-        ""
-    ]
-},
-{
-    "id": "aws-analytics-",
-    "name": "",
-    "subcategory": "",
-    "category": "analytics",
-    "description": "",
-    "last_updated": "2018-03-16",
-    "provider": "AWS",
-    "similar_services":[],
-    "urls": [
-        ""
-    ]
-},
-{
-    "id": "aws-analytics-",
-    "name": "",
-    "subcategory": "",
-    "category": "analytics",
-    "description": "",
-    "last_updated": "2018-03-16",
-    "provider": "AWS",
-    "similar_services":[],
-    "urls": [
-        ""
-    ]
-},
-{
-    "id": "aws-analytics-",
-    "name": "",
-    "subcategory": "",
+    "name": " ",
+    "subcategory": "visualization",
     "category": "analytics",
     "description": "",
     "last_updated": "2018-03-16",

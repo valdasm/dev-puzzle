@@ -238,14 +238,14 @@
 {
     "id": "az-integrations-event-hubs",
     "name": "Azure Event Hubs",
-    "subcategory": "x",
+    "subcategory": "queue",
     "category": "integrations",
-    "description": "",
+    "description": "Azure Event Hubs is a highly scalable data streaming platform and event ingestion service, capable of receiving and processing millions of events per second. Event Hubs can process and store events, data, or telemetry produced by distributed software and devices.",
     "last_updated": "2018-02-17",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-integrations-kinesis-streams"],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/event-hubs/"
     ]
 },
 {
@@ -610,10 +610,10 @@
     "name": "Azure Search",
     "subcategory": "search",
     "category": "analytics",
-    "description": "",
+    "description": "Azure Search is a search-as-a-service cloud solution that gives developers APIs and tools for adding a rich search experience over your content in web, mobile, and enterprise applications.",
     "last_updated": "2018-03-06",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-analytics-cloudsearch"],
     "urls": [
         "https://azure.microsoft.com/services/search/"
     ]
@@ -636,12 +636,12 @@
     "name": "Azure Machine Learning Studio",
     "subcategory": "machine-learning",
     "category": "analytics",
-    "description": "",
+    "description": "Azure Machine Learning Studio is a collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions on your data",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-analytics-machine-learning"],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/machine-learning-studio/"
     ]
 },
 {
@@ -649,12 +649,12 @@
     "name": "Azure Machine Learning Workbench",
     "subcategory": "machine-learning",
     "category": "analytics",
-    "description": "",
+    "description": "Downloadable desktop application and command-line interface for Windows and MacOS. Built-in data preparation learns your data preparation steps as you perform them. Project management, run history, and notebook integration bolsters your productivity. Take advantage of the best open source frameworks, including TensorFlow, Cognitive Toolkit, Spark ML, and scikit-learn.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":[],
+    "similar_services":["aws-analytics-sagemaker"],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/machine-learning-services/"
     ]
 },
 {
@@ -686,7 +686,7 @@
 {
     "id": "az-analytics-asa",
     "name": "Azure Stream Analytics",
-    "subcategory": "analytics",
+    "subcategory": "streaming",
     "category": "analytics",
     "description": "Azure Stream Analytics is a managed event-processing engine set up real-time analytic computations on streaming data. The data can come from devices, sensors, web sites, social media feeds, applications, infrastructure systems, and more.",
     "last_updated": "2018-02-18",
@@ -763,12 +763,12 @@
     "name": "Azure Data Catalog",
     "subcategory": "data-discovery",
     "category": "analytics",
-    "description": "",
+    "description": "Azure Data Catalog is a fully managed cloud service whose users can discover the data sources they need and understand the data sources they find. ",
     "last_updated": "2018-02-18",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-        
+        "https://azure.microsoft.com/services/data-catalog/"
     ]
 },
 {
@@ -779,7 +779,10 @@
     "description": "Develop and run massively parallel data transformation and processing programs in U-SQL, R, Python, and .NET over petabytes of data. With no infrastructure to manage, you can process data on demand, scale instantly, and only pay per job.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
-    "similar_services":["aws-analytics-kinesis-analytics"],
+    "similar_services":[
+        "aws-analytics-kinesis-analytics", 
+        "aws-analytics-athena"
+    ],
     "urls": [
         "https://azure.microsoft.com/services/data-lake-analytics/"
     ]
@@ -867,12 +870,12 @@
     "name": "Microsoft Power BI",
     "subcategory": "visualization",
     "category": "analytics",
-    "description": "",
+    "description": "Power BI is a business analytics service provided by Microsoft. It provides interactive visualizations with self-service business intelligence capabilities.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-        
+        "https://powerbi.microsoft.com/en-us/"
     ]
 },
 {
@@ -893,12 +896,12 @@
     "name": "Power BI Embedded",
     "subcategory": "visualization",
     "category": "analytics",
-    "description": "",
+    "description": "Power BI Embedded is intended to simplify how ISVs and developers use Power BI capabilities. Power BI Embedded simplifies Power BI capabilities by helping you quickly add stunning visuals, reports, and dashboards into your apps. Similar to apps built on Microsoft Azure use services like Machine Learning and IoT.",
     "last_updated": "2018-02-18",
     "provider": "Azure",
     "similar_services":[],
     "urls": [
-        
+        "https://azure.microsoft.com/en-us/services/power-bi-embedded/"
     ]
 },
 {
@@ -1819,7 +1822,7 @@
 {
     "id": "aws-analytics-kinesis-analytics",
     "name": "Amazon Kinesis Data Analytics",
-    "subcategory": "analytics",
+    "subcategory": "streaming",
     "category": "analytics",
     "description": "Amazon Kinesis Data Analytics is the easiest way to process streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. ",
     "last_updated": "2018-03-16",
@@ -1830,6 +1833,110 @@
     ],
     "urls": [
         "https://aws.amazon.com/kinesis/data-analytics/"
+    ]
+},
+{
+    "id": "aws-analytics-kinesis-streams",
+    "name": "Amazon Kinesis Data Streams",
+    "subcategory": "streaming",
+    "category": "analytics",
+    "description": "Amazon Kinesis Data Streams enables you to build custom applications that process or analyze streaming data for specialized needs. Kinesis Data Streams can continuously capture and store terabytes of data per hour from hundreds of thousands of sources such as website clickstreams, financial transactions, social media feeds, IT logs, and location-tracking events.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-analytics-asa"],
+    "urls": [
+        "https://aws.amazon.com/kinesis/data-streams/"
+    ]
+},
+{
+    "id": "aws-integrations-kinesis",
+    "name": "Amazon Kinesis",
+    "subcategory": "queue",
+    "category": "integrations",
+    "description": "Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-integrations-event-hubs"],
+    "urls": [
+        "https://aws.amazon.com/kinesis/"
+    ]
+},
+{
+    "id": "aws-analytics-kinesis-firehouse",
+    "name": "Amazon Kinesis Data Firehose",
+    "subcategory": "streaming",
+    "category": "analytics",
+    "description": "Amazon Kinesis Data Firehose is the easiest way to load streaming data into data stores and analytics tools. It can capture, transform, and load streaming data into Amazon S3, Amazon Redshift, Amazon Elasticsearch Service, and Splunk, enabling near real-time analytics with existing business intelligence tools and dashboards you’re already using today.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-integrations-event-hubs"],
+    "urls": [
+        "https://aws.amazon.com/kinesis/data-firehose/"
+    ]
+},
+{
+    "id": "aws-analytics-quicksight",
+    "name": "Amazon QuickSight",
+    "subcategory": "visualization",
+    "category": "analytics",
+    "description": "Amazon QuickSight is a fast, cloud-powered business analytics service that makes it easy to build visualizations, perform ad-hoc analysis, and quickly get business insights from your data.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-analytics-powerbi"],
+    "urls": [
+        "https://aws.amazon.com/quicksight/"
+    ]
+},
+{
+    "id": "aws-analytics-cloudsearch",
+    "name": "Amazon CloudSearch",
+    "subcategory": "search",
+    "category": "analytics",
+    "description": "",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-analytics-search"],
+    "urls": [
+        "https://aws.amazon.com/cloudsearch/"
+    ]
+},
+{
+    "id": "aws-analytics-machine-learning",
+    "name": "Machine Learning on AWS",
+    "subcategory": "machine-learning",
+    "category": "analytics",
+    "description": "Amazon Machine Learning is a managed service for building ML models and generating predictions, enabling the development of robust, scalable smart applications.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-analytics-ml-studio"],
+    "urls": [
+        "https://aws.amazon.com/aml/details/"
+    ]
+},
+{
+    "id": "aws-analytics-sagemaker",
+    "name": "Amazon SageMaker",
+    "subcategory": "machine-learning",
+    "category": "analytics",
+    "description": "Amazon SageMaker is a fully-managed service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-analytics-ml-workbench"],
+    "urls": [
+        "https://aws.amazon.com/sagemaker/"
+    ]
+},
+{
+    "id": "aws-analytics-athena",
+    "name": "Amazon Athena",
+    "subcategory": "analytics",
+    "category": "analytics",
+    "description": "Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.",
+    "last_updated": "2018-03-16",
+    "provider": "AWS",
+    "similar_services":["az-analytics-lake-analytics"],
+    "urls": [
+        "https://aws.amazon.com/athena/"
     ]
 }
 ]
