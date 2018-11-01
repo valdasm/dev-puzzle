@@ -1,2 +1,7 @@
+Sitemap: https://www.valdas.blog/sitemap.xml
+
 User-agent: *
-Disallow: /
+Disallow: /p/
+Disallow: /404.html
+
+

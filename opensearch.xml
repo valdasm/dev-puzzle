@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Valdas' Blog</ShortName>
+  <Description>Search valdas.blog</Description>
+  <Tags>cloud big data programming</Tags>
+  <Contact>valdas@maksimavicius.eu</Contact>
+  <Url type="application/atom+xml" template="https://www.valdas.blog/opensearch.html?q={searchTerms}&amp;format=atom"/>
+  <Url type="application/rss+xml" template="https://www.valdas.blog/opensearch.html?q={searchTerms}&amp;format=rss"/>
+  <Url type="text/html" template="https://www.valdas.blog/opensearch.html?q={searchTerms}"/>
+  <LongName>Blog About Computers</LongName>
+  <Image height="128" width="128" type="image/png">https://www.valdas.blog/favicon.ico</Image>
+  <Developer>Valdas Maksimavicius</Developer>
+  <Attribution>Copyright 2018, Valdas Maksimavicius, All Rights Reserved</Attribution>
+  <Query role="example" searchTerms="java"/>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>en-us</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>

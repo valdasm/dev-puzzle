@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://www.valdas.blog/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.6.3">Jekyll</generator><link href="https://www.valdas.blog/rss.xml" rel="self" type="application/atom+xml" /><link href="https://www.valdas.blog/" rel="alternate" type="text/html" /><updated>2018-11-01T12:44:54+00:00</updated><id>https://www.valdas.blog/</id><title type="html">Valdas’ blog</title><subtitle>Thoughts about software, big data and random stuff</subtitle><author><name>Valdas Maksimavičius</name></author><entry><title type="html">Never Split the Difference by Chris Voss</title><link href="https://www.valdas.blog/2018/10/26/never-split-difference/" rel="alternate" type="text/html" title="Never Split the Difference by Chris Voss" /><published>2018-10-26T00:00:00+00:00</published><updated>2018-10-26T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/10/26/never-split-difference</id><content type="html" xml:base="https://www.valdas.blog/2018/10/26/never-split-difference/">&lt;p&gt;Negotiations weren’t my favorite part of conversations. If I saw a product for 20 Eur, I would either pay 20 or walked away. Bargaining was too intimate and vague for me. Until I stumbled upon “Never Split the Difference” by Chriss Voss.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“He who has learned to disagree without being disagreeable has discovered the most valuable secret of negotiation.” ― Chris Voss&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“Never Split the Difference” is a book on negotitations, written by a former FBI hostage negotiator - Chris Voss. Chris presents stories of high-stakes negotiations with a range of criminals, including bank robbers and terrorists. In this book, he shares principles and strategies one can use to become more persuasive in any situation.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/guZa7mQV1l0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Below is a list of useful list. Though, I urge you to read the book first :)&lt;/p&gt;
+
+&lt;h3 id=&quot;book-notes-taken-by-michael-parker-very-detailed&quot;&gt;Book notes taken by Michael Parker (very detailed)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mgp/book-notes/blob/master/never-split-the-difference.markdown&quot; target=&quot;_blank&quot;&gt;https://github.com/mgp/book-notes/blob/master/never-split-the-difference.markdown&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;negotiations-cheat-sheet-created-by-yan-david-erlich&quot;&gt;Negotiations cheat sheet created by Yan-David Erlich&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/YanDavidErlich/never-split-the-difference-cheatsheet&quot; target=&quot;_blank&quot;&gt;https://www.slideshare.net/YanDavidErlich/never-split-the-difference-cheatsheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/10/negotiations.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“Never Split the Difference” is my first book on negotiation, and I enjoyed it a bunch. I hope you’ll like it too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Links:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805&quot; target=&quot;_blank&quot;&gt;Never Split The Difference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/YanDavidErlich/never-split-the-difference-cheatsheet&quot; target=&quot;_blank&quot;&gt;Never Split The Difference Cheat Sheet by Yan-David Erlich&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mgp/book-notes/blob/master/never-split-the-difference.markdown&quot; target=&quot;_blank&quot;&gt;Never Split The Difference notes by Michael Parker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="book" /><summary type="html">Negotiations weren’t my favorite part of conversations. If I saw a product for 20 Eur, I would either pay 20 or walked away. Bargaining was too intimate and vague for me. Until I stumbled upon “Never Split the Difference” by Chriss Voss.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/10/negotiations.jpg" /></entry><entry><title type="html">Kompiuteris vs. Nacionalinis diktantas vol. 2</title><link href="https://www.valdas.blog/2018/10/09/kompiuteris-vs-diktantas-vol-2/" rel="alternate" type="text/html" title="Kompiuteris vs. Nacionalinis diktantas vol. 2" /><published>2018-10-09T00:00:00+00:00</published><updated>2018-10-09T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/10/09/kompiuteris-vs-diktantas-vol-2</id><content type="html" xml:base="https://www.valdas.blog/2018/10/09/kompiuteris-vs-diktantas-vol-2/">&lt;p&gt;Prieš savaitę išbandžiau Google kalbos atpažinimo funkcionalumą su 2017 metų Nacionalinio diktanto įrašu. Šiandien testuosiu Tilde teikiamą funkcionalumą su tuo pačiu garso įrašu. “Tilde IT” tai kalbos technologijų bendrovė, siūlanti programinės įrangos lokalizavimą, techninės dokumentacijos vertimą, Baltijos šalių kalbų palaikymo programinės įrangos kūrimą.&lt;/p&gt;
+
+&lt;p&gt;Kaip manote, ar “Tilde” prilygs JAV technologijų gigantei lietuvių kalbos gebėjimais?&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Tilde ir Google funkcionalumo palyginimui panaudosiu savo &lt;a href=&quot;https://github.com/valdasm/lt-dictation-to-text&quot; target=&quot;_blank&quot;&gt;GitHub projektą&lt;/a&gt;, kurį tiksliau aprašiau &lt;a href=&quot;/2018/09/25/google-raso-nacionalini-diktanta/&quot; target=&quot;_blank&quot;&gt;čia.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/10/speech_tilde.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tilde-tyrimas&quot;&gt;Tilde tyrimas&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tilde.lt/snekos-technologijos&quot; target=&quot;_blank&quot;&gt;Tilde kalbos portale&lt;/a&gt; nesuradau galimybės užkrauti įrašų programiškai (būtina kontaktuoti Tilde specialistus), tad nusprendžiau failus įkelti pats (35 įrašai). Su Google bandžiau pagerinti rezultatus užkraunant pakartotus sakinius ir pasirenkant vertimą su aukščiausiu pasitikėjimo koeficentu. Deja, Tilde negražina vartotojui tokio koeficjento, tad belieka siųsti pavienius sakinius.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/10/speech_cover.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rezultatai jau iš pirmo žvilgsnio maloniai stebino, tad negalėjau sulaukti kada Tilde apdoros visus sakinius.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/4lsKITftHaUpi/giphy.gif&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tilde-vs-google&quot;&gt;Tilde vs Google&lt;/h2&gt;
+
+&lt;p&gt;Kalbos atpažinimo efektyvumui suskaičiuoti pasitelkiau &lt;a href=&quot;https://en.wikipedia.org/wiki/Word_error_rate&quot; target=&quot;_blank&quot;&gt;žodžių klaidų lygio formule (Word Error Rate WER)&lt;/a&gt; (kiek žodžių pašalinta, pakeista, nereikalingai įterpta iš visų žodžių originalo tekste).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/10/speech_wer_diagram.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pašalinus skyrybos ženklus ir didžiąsias raides pavertus mažosiomis, Tilde (18.36% WER) padarė du kartus mažiau klaidų nei Google (39.55% WER). Net sakinių pakartojimas Google smarkiai nepadėjo - 36.44% WER.&lt;/p&gt;
+
+&lt;p&gt;Bet linksmybės dar tik prasideda! Pasirodo, Tilde gana neblogai išmano skyrybą ir pasiekė 24.79% WER įskaitant didžiąsias raides ir skyrybos ženklus. Google - 59.89% WER.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/10/speech_errors_diagram.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;apibendrinimas&quot;&gt;Apibendrinimas&lt;/h2&gt;
+
+&lt;p&gt;Rezultatas vienareikšmiškas - Tilde sumalė Google kalbos atpažinimą į miltus. Šiam testui atlikti naudojamas garso įrašas yra išties sudėtingas, bet kokybiškai įrašytas. Įdomu kaip Tilde susidoroja su pašaliniais garsais ar keliais kalbėtojais vienu metu?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nuorodos:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/2018/09/25/google-raso-nacionalini-diktanta/&quot; target=&quot;_blank&quot;&gt;Mano įrašas - Google rašo Nacionalinį diktantą&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/valdasm/lt-dictation-to-text&quot; target=&quot;_blank&quot;&gt;GitHub projektas kalbos atpažinimo testavimui&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tilde.lt/snekos-technologijos&quot; target=&quot;_blank&quot;&gt;Tilde kalbos portalas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="software" /><category term="lithuanian" /><summary type="html">Prieš savaitę išbandžiau Google kalbos atpažinimo funkcionalumą su 2017 metų Nacionalinio diktanto įrašu. Šiandien testuosiu Tilde teikiamą funkcionalumą su tuo pačiu garso įrašu. “Tilde IT” tai kalbos technologijų bendrovė, siūlanti programinės įrangos lokalizavimą, techninės dokumentacijos vertimą, Baltijos šalių kalbų palaikymo programinės įrangos kūrimą.
+
+Kaip manote, ar “Tilde” prilygs JAV technologijų gigantei lietuvių kalbos gebėjimais?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/10/speech_cover.jpg" /></entry><entry><title type="html">Google lietuvių kalbos atpažinimas rašo Nacionalinį diktantą!</title><link href="https://www.valdas.blog/2018/09/30/google-raso-nacionalini-diktanta/" rel="alternate" type="text/html" title="Google lietuvių kalbos atpažinimas rašo Nacionalinį diktantą!" /><published>2018-09-30T00:00:00+00:00</published><updated>2018-09-30T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/09/30/google-raso-nacionalini-diktanta</id><content type="html" xml:base="https://www.valdas.blog/2018/09/30/google-raso-nacionalini-diktanta/">&lt;p&gt;Šiandien išbandysime &lt;a href=&quot;https://cloud.google.com/speech-to-text/&quot; target=&quot;_blank&quot;&gt;Google kalbos atpažinimo&lt;/a&gt; (speech to text) funkcionalumą. Google dar 2017 metai gyrėsi 95% anglų atpažinimo tikslumu, bet mane labiau domina JAV technologijų gigantės lietuvių kalbos gebėjimai.&lt;/p&gt;
+
+&lt;p&gt;Pirmieji bandymai užrašyti mano ištartas frazes paliko įspūdį, Google tik retkarčiais praleisdavo žodį ar įterpdavo nesąmonę. Pirmasis pastebėjimas - Google lietuvių kalbos atpažinimas yra labai jautrus kirčiavimui, pašaliniams garsams. Kilo mintis išbandyti šį funkcionalumą su profesionalaus lektoriaus garso įrašu: 2017 metų Nacionaliniu diktantu. Nusprendžiau parašyti programą, kurią būtų galima lengvai užleisti pakartotinai ir taip patikrinti funkcionalumo tobulėjimą ateityje.&lt;/p&gt;
+
+&lt;p&gt;Prisipažinsiu, bijau Google parašys diktantą geriau už mane :)&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/09/speech_google_listens.gif&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ktu-tyrimas&quot;&gt;KTU tyrimas&lt;/h2&gt;
+&lt;p&gt;2016 m. grupė KTU mokslininkų &lt;a href=&quot;https://www.researchgate.net/publication/308495820_Google_Lithuanian_Speech_Recognition_Efficiency_Evaluation_Research&quot; target=&quot;_blank&quot;&gt;tyrė Google kalbos atpažinimo funkcionalumą.&lt;/a&gt; Atpažintų &lt;a href=&quot;https://en.wikipedia.org/wiki/Word_error_rate&quot; target=&quot;_blank&quot;&gt;žodžių klaidų lygis (WER - Word Error Rate )&lt;/a&gt; siekė 40%.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2016 m. problematiška frazė;&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;atpažinta kaip&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;penktas&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;tanki test&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;išsijunk&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;iš trijų&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;sviestas&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;speed test&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;lizosoma&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;visos stoma&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;taikyk&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;tai kiek&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;dešinėn&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;dešimt min&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;padidink&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;lady zippy&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;šunkelis&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;šunų kelis&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;išsijunk&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;iš jų&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;bjaurus&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;į eurus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;rnr&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;prie neries&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;aštuntas&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;pašto kodas&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;pasiruošimas-diktanto-eksperimentui&quot;&gt;Pasiruošimas diktanto eksperimentui&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Surandu originalų tekstą ir audio įrašą &lt;a href=&quot;http://www.vlkk.lt/naujienos/kitos-naujienos/diktantas-bedugne-su-skyrybos-paaiskinimais&quot; target=&quot;_blank&quot;&gt;Valstybinės lietuvių kalbos komisijos tinklapyje (VLKK)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Naktį pasnigo, miškas nubalo. 
+Nendrės, juosiančios ežerėlį, buvo tarytum paslaptingi 
+hieroglifai, kaligrafo įrėžti į tylą, neperskaitomi, 
+todėl nebylūs.
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Formatuoju originalų tekstą sakinius perkeliant į atskiras eilutes (galimybė surasti audio failą pagal sakinio vietą faile)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Karpau audio failą į sakinius ir saugoju juos į atskirus failus&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/09/speech_audition.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Konfigūruoju Google Cloud: reikalingas Speech-To-Api planas ir Google Storage (nemokamas planas metams prisijungus pirmą kartą)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/09/speech_google.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rašau Python programą: daugiau informacijos &lt;a href=&quot;https://github.com/valdasm/lt-dictation-to-text&quot; target=&quot;_blank&quot;&gt;GitHub valdasm/lt-dictation-to-text&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;google.cloud&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speech&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;google.cloud.speech&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enums&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;google.cloud.speech&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;types&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speech&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SpeechClient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;audio&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;types&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RecognitionAudio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uri&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gcs_uri&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;types&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RecognitionConfig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;encoding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enums&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RecognitionConfig&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;AudioEncoding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FLAC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;sample_rate_hertz&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;44100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;language_code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'lt-LT'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;diktanto-rašymas&quot;&gt;Diktanto rašymas&lt;/h2&gt;
+
+&lt;p&gt;Pirmiausiai supraskime kokia yra audio įrašo struktūra: lektorius perskaito visą tekstą, tada lėtai skaito kiekvieną sakinį kartodamas frazes, galiausiai, lektorius dar kartą perskaito visą tekstą.&lt;/p&gt;
+
+&lt;p&gt;Sukurta Python programėlė siunčia tiek pilnų sakinių, tiek atskirų frazių pakartojimus. Pilnus sakinius lyginu su originaliu tekstu iš VLKK ir naudoju tolimesnei analizei.&lt;/p&gt;
+
+&lt;p&gt;Frazių atpažinimo rezultatai reikalauja mano įsikišimo norint sujungti viską į vientisus sakinius, tad eksperimentas nebebūtų objektyvus. Įdomumo dėlei, frazių atpažinimo tikslumo įverčius išsaugoju atskirame faile (data\raw_detailed_output.md).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/09/speech_running.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rezultatai&quot;&gt;Rezultatai&lt;/h2&gt;
+
+&lt;h4 id=&quot;atpažinimo-įverčiai&quot;&gt;Atpažinimo įverčiai&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Orginalas: Danius nedrąsiai šyptelėjo
+
+Atmestas: Danijos migracija išėjo
+Confidence: 0.72
+
+Pasirinktas: Darius nedrąsiai šyptelėjo
+Confidence: 0.73
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;sakinių-lyginimas&quot;&gt;Sakinių lyginimas&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- danius nedrąsiai šyptelėjo
+?   ^
++ darius nedrąsiai šyptelėjo
+?   ^
+
+- Orginalas
++ Google
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;Žodžių-klaidų-lygis&quot;&gt;Žodžių klaidų lygis&lt;/h4&gt;
+
+&lt;p&gt;Google kalbos atpažinimo efektyvumui suskaičiuoti pasitelkiau &lt;a href=&quot;https://en.wikipedia.org/wiki/Word_error_rate&quot; target=&quot;_blank&quot;&gt;žodžių klaidų lygio formule&lt;/a&gt; (kiek žodžių pašalinta, pakeista, nereikalingai įterpta iš visų žodžių originalo tekste).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Be kartojimo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Žodžių klaidų lygis (WER): 39.55% (Įterpta: 40 Pašalinta: 5 Pakeista: 95 Originalas: 354 )&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sakinio pakartojimas (naudojant skirtingus įrašus)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Žodžių klaidų lygis (WER): 36.44% (Įterpta: 19 Pašalinta: 14 Pakeista: 96 Originalas: 354 )&lt;/p&gt;
+
+&lt;h2 id=&quot;Įdomios-frazės&quot;&gt;Įdomios frazės&lt;/h2&gt;
+&lt;p&gt;“paslaptingi hieroglifai, kaligrafo įrėžti” -&amp;gt; “paslaptingi vyro klipai pririšti”
+“išgirdo švelnius vos juntamus” -&amp;gt; “švelnius losjonus”&lt;/p&gt;
+
+&lt;h2 id=&quot;tobulinimas&quot;&gt;Tobulinimas&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Frazių kartojimas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Analizuojant atskirų frazių pasitikėjimo koeficjentus, matosi kad ištraukos yra kartais užrašomos tiksliau už sakinius. Tačiau jų logiškas sujungimas į vientisą sakinį jau reikalautų mano įsikišimo.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Orginalas: Rodėsi keista, kad neįmanoma pasakyti, 
+           koks gi dabar paros metas
+
+Pasirinktas: rūdys ir keista kad neįmanoma 
+             pasakyti koks gi dabar paros metas
+
+rūdys ir keista
+0.8809462785720825
+rodėsi keista
+0.9402069449424744
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Verčiant visą sakinį Google išgirdo “rūdys ir keista kad …”. Bet jau verčiant trumpas frazes, “rodėsi keista” buvo aptiktas su aukštu pasitikėjimo koeficjentu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Nepasitikintis Google&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Retkarčiais, Google pasirinko prastesnį vertimą (mano manymu):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Orginalas: Tėti, jeigu tas paveikslas tave gąsdina, 
+           aš jį nukabinsiu
+
+Pasirinktas: tai jeigu tas paveikslas Tele2
+Confidence: 0.76
+
+Atmestas: tiltai jeigu tas paveikslas tave gąsdina 
+          aš nukrisiu
+Confidence: 0.75
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Antras sakinys yra arčiau tiesios, bet pasitikėjimo lygis yra didesnis prie pirmojo, kurį Google ir pasirinko.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Didžiųjų raidžių ir skyrybos ženklų nepaisymas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Google kalbos atpažinimas turi problemų su skyrybos ženklais. Kadangi norėjau pagrindinai atkreipti dėmesį tik į žodžių atpažinimą, originaliame tekste pašalinau skyrybos ženklus o didžiąsias raides paverčiau mažosiomis.&lt;/p&gt;
+
+&lt;h1 id=&quot;apibendrinimas&quot;&gt;Apibendrinimas&lt;/h1&gt;
+
+&lt;p&gt;Lietuvių kalba nėra taip populiari kaip anglų, tad ir teksto atpažinimas veikia ženkliai prasčiau. Be abejo, Google funkcionalumas tikrai tobulės, tad bus smagu pamatyti kaip atpažinimas veiks ateityje. KTU mokslininkų išsamus Google funkcionalumo testas atliktas 2016 metais vidutiniškai pasiekė 40% žodžių klaidų lygį. Mano mėgėjiškas eksperimentas su vieno lektoriaus įrašu - 36.44%.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nuorodos:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/valdasm/lt-dictation-to-text&quot; target=&quot;_blank&quot;&gt;GitHub valdasm/lt-dictation-to-text&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com/speech-to-text/&quot; target=&quot;_blank&quot;&gt;Google Speech to Text&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.researchgate.net/publication/308495820_Google_Lithuanian_Speech_Recognition_Efficiency_Evaluation_Research&quot; target=&quot;_blank&quot;&gt;Google Lithuanian Speech Recognition Efficiency Evaluation Research&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="software" /><category term="lithuanian" /><summary type="html">Šiandien išbandysime Google kalbos atpažinimo (speech to text) funkcionalumą. Google dar 2017 metai gyrėsi 95% anglų atpažinimo tikslumu, bet mane labiau domina JAV technologijų gigantės lietuvių kalbos gebėjimai.
+
+Pirmieji bandymai užrašyti mano ištartas frazes paliko įspūdį, Google tik retkarčiais praleisdavo žodį ar įterpdavo nesąmonę. Pirmasis pastebėjimas - Google lietuvių kalbos atpažinimas yra labai jautrus kirčiavimui, pašaliniams garsams. Kilo mintis išbandyti šį funkcionalumą su profesionalaus lektoriaus garso įrašu: 2017 metų Nacionaliniu diktantu. Nusprendžiau parašyti programą, kurią būtų galima lengvai užleisti pakartotinai ir taip patikrinti funkcionalumo tobulėjimą ateityje.
+
+Prisipažinsiu, bijau Google parašys diktantą geriau už mane :)</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/09/speech_cover.jpg" /></entry><entry><title type="html">No way, Jose. Finish one task before starting another</title><link href="https://www.valdas.blog/2018/07/01/no-way-jose/" rel="alternate" type="text/html" title="No way, Jose. Finish one task before starting another" /><published>2018-07-01T00:00:00+00:00</published><updated>2018-07-01T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/07/01/no-way-jose</id><content type="html" xml:base="https://www.valdas.blog/2018/07/01/no-way-jose/">&lt;blockquote&gt;
+  &lt;p&gt;Much of the stress that people feel doesn’t come from having too much to do. It comes from not finishing what they started - David Allen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Undertaking new projects comes to me with ease. The dark side of “let’s start” attitude is that it shifts the focus from ongoing initiatives to new and engaging ideas. David Allen, the creator of the “Getting Things Done” method, accurately describes the source of my stress. It’s time to declutter my mind.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;step-one-no-new-actions&quot;&gt;Step one: No new actions&lt;/h2&gt;
+
+&lt;p&gt;A while ago I wrote an article about &lt;a href=&quot;/2017/11/30/saying-no/&quot; target=&quot;_blank&quot;&gt;saying NO.&lt;/a&gt; It’s time to refresh my principles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/11/No_noise.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-two-list-discontinued-tasks&quot;&gt;Step two: List discontinued tasks&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;My blog - almost 3 months of inactivity&lt;/li&gt;
+  &lt;li&gt;Mastering Deep learning&lt;/li&gt;
+  &lt;li&gt;Preparing for TOGAF certification&lt;/li&gt;
+  &lt;li&gt;Swimming / running / cycling&lt;/li&gt;
+  &lt;li&gt;devpuzzle.net - portal about cloud services&lt;/li&gt;
+  &lt;li&gt;Solving posture problems&lt;/li&gt;
+  &lt;li&gt;Podcast&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The list goes on and on, but I already feel terrible about all those death sentenced plans.&lt;/p&gt;
+
+&lt;h2 id=&quot;stage-three-assign-priorities-next-immediate-steps-and-turn-on-pomodoro-technique&quot;&gt;Stage three: Assign priorities, next immediate steps and turn on Pomodoro technique&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Most people sleep about seven or eight hours a night. That leaves 16 or 17 hours awake each day. Or about 1,000 minutes. Let’s think about those 1,000 minutes as 100 10-minute blocks. That’s what you wake up with every day. - Tim Urban, Wait But Why&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We underestimate 10-30 minute windows. At work, the majority of meetings are 60 minutes long. Once asked for task estimates, we think in hours, or even in days. As a result, we don’t treat 10 minutes as something truly productive. While in reality, it’s enough to get immersed in a problem.&lt;/p&gt;
+
+&lt;h2 id=&quot;stage-four-install-blocking-apps&quot;&gt;Stage four: Install blocking apps&lt;/h2&gt;
+&lt;p&gt;A list of priorities is useless if I still keep scrolling Facebook, LinkedIn or watching YouTube. To limit my mindless browsing I need some help, and BlockSite seems to be a good solution.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/07/finish_blocksite.jpg&quot; alt=&quot;BlockSite&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;the-last-thing-we-want-is-to-be-this-person&quot;&gt;The last thing we want is to be this person&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/prototype_side_project.jpg&quot; alt=&quot;Commitstrip - Side Project&quot; class=&quot;img-responsive&quot; /&gt; 
+&lt;sub&gt;&lt;a href=&quot;http://www.commitstrip.com/en/2014/11/25/west-side-project-story/&quot; target=&quot;_blank&quot;&gt;CommitStrip - Side Project&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="growth" /><summary type="html">Much of the stress that people feel doesn’t come from having too much to do. It comes from not finishing what they started - David Allen
+
+
+Undertaking new projects comes to me with ease. The dark side of “let’s start” attitude is that it shifts the focus from ongoing initiatives to new and engaging ideas. David Allen, the creator of the “Getting Things Done” method, accurately describes the source of my stress. It’s time to declutter my mind.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/07/finish_fb.jpg" /></entry><entry><title type="html">My approach to speech memorization</title><link href="https://www.valdas.blog/2018/04/16/fastest-way-to-remember-speech/" rel="alternate" type="text/html" title="My approach to speech memorization" /><published>2018-04-16T00:00:00+00:00</published><updated>2018-04-16T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/04/16/fastest-way-to-remember-speech</id><content type="html" xml:base="https://www.valdas.blog/2018/04/16/fastest-way-to-remember-speech/">&lt;figure class=&quot;badge&quot;&gt;&lt;img src=&quot;https://www.valdas.blog/images/2018/04/memory_fb.jpg&quot; style=&quot;width:180px;max-width:100%;&quot; alt=&quot;badge&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;Nobody would argue that experiencing a memory blackout on a stage is horrifying. All of a sudden you can’t get a word out, the brain gets unplugged, and your shame level rises sharply - the situation no one wants to encounter. Public speaking is a stressful situation, and memory glitches shouldn’t surprise anyone. Hence, learning the text by heart is not the best strategy. Here is one technique I find useful.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Remembering bullet point arguments and long texts is a nightmare for me. It takes ages to memorize, and I still get distracted easily. My brain gets occupied densely by text recalling, and it focuses on the next words and sentences, which may lead to funny situations, as illustrated in the drawing below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/memory_forget.png&quot; alt=&quot;Strange situations forgetting&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The evidence suggests that human brain prefers visuals over text. I am not an exception: a funny picture or an interesting visual will stick in my crazy mind way longer than written text. Therefore, to use the full potential of our brains, we need to visualize arguments and make connections between them. Visualization can be as simple as a little curve:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/memory_line.png&quot; alt=&quot;Talk timeline&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Either I am about to speak at a conference or give a presentation at work, I start my preparations by drawing a very similar timeline of my speech. So how to create it? Let’s dive into an example from my latest talk at Vilnius Tech Leads about (&lt;a href=&quot;/2018/02/25/my-delegation-lessons/&quot; target=&quot;_blank&quot;&gt;my delegation lessons&lt;/a&gt;). I start my preparations by refining stories and putting those on a timeline. For the sake of simplicity, I am keeping the diagram simple here, but usually it evolves, I put more and more details, play with the order, and eventually, I have to redraw it several times to make it clean and tidy. To make it easier to remember, I might put some visuals near each story.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/memory_line_2.png&quot; alt=&quot;Talk timeline&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The story timeline is a framework that works very well for me. There are a couple of reasons why I do it before every talk:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;visualize arguments and focus on the central message&lt;/li&gt;
+  &lt;li&gt;plan and control the length of a discussion&lt;/li&gt;
+  &lt;li&gt;remember exactly what goes after what&lt;/li&gt;
+  &lt;li&gt;smooth transitions&lt;/li&gt;
+  &lt;li&gt;remind yourself about the flow with a blink of an eye&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I learned this trick at Toastmasters, which is a global nonprofit public speaking and leadership organization designed to make public speaking less terrifying. I learned many valuable lessons there - the most valuable of which was the importance of structure - to prepare content faster and present it appropriately. Structure of a speech helps an audience to understand the message. But it doesn’t need to be a boring curve; instead, you might use different visualization methods.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/memory_sparklines.png&quot; alt=&quot;Storytelling - sparklines&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The sparklines structure contrast our ordinary world with an ideal, improved world. It creates and fuels a desire for change.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/memory_petal.png&quot; alt=&quot;Storytelling - petal structure&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The petal structure organizes multiple stories around one core concept. It’s useful if you have several unconnected stories you want to tell or things you want to reveal – that all relate back to a single message.&lt;/p&gt;
+
+&lt;p&gt;A human brain is a sophisticated processor. If you are interested in learning more about memory tricks, search for memory palace technique. Here is a TED talk by Joshua Foer, who is “a science writer who ‘accidentally’ won the U.S. Memory Championship”.&lt;/p&gt;
+
+&lt;div style=&quot;max-width:854px&quot;&gt;&lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%&quot;&gt;&lt;iframe src=&quot;https://embed.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do&quot; width=&quot;854&quot; height=&quot;480&quot; style=&quot;position:absolute;left:0;top:0;width:100%;height:100%&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Remembering word by word is time-consuming. If you are about to talk at a TED conference, you should learn the text by heart. Otherwise, use simple tricks to clarify the message, structure and memorize only the essential points.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;related-posts-and-links&quot;&gt;Related posts and links&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/2018/02/25/my-delegation-lessons/&quot; target=&quot;_blank&quot;&gt;My delegation lessons&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sparkol.com/en/Blog/8-Classic-storytelling-techniques-for-engaging-presentations&quot; target=&quot;_blank&quot;&gt;8 Classic storytelling techniques for engaging presentations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="speaking" /><summary type="html">Nobody would argue that experiencing a memory blackout on a stage is horrifying. All of a sudden you can’t get a word out, the brain gets unplugged, and your shame level rises sharply - the situation no one wants to encounter. Public speaking is a stressful situation, and memory glitches shouldn’t surprise anyone. Hence, learning the text by heart is not the best strategy. Here is one technique I find useful.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/04/memory_fb.jpg" /></entry><entry><title type="html">The Dangers of Storytelling</title><link href="https://www.valdas.blog/2018/04/06/dangers-of-storytelling/" rel="alternate" type="text/html" title="The Dangers of Storytelling" /><published>2018-04-06T00:00:00+00:00</published><updated>2018-04-06T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/04/06/dangers-of-storytelling</id><content type="html" xml:base="https://www.valdas.blog/2018/04/06/dangers-of-storytelling/">&lt;p&gt;A few weeks ago I got an idea to create a set of programming tutorials for non-developers. Since I had been receiving questions about developer’s career and how to become one, I thought of creating digestible guides to show how easy it is to start coding. In a way: “Look, it’s as simple as riding a bike, you should be ashamed you haven’t googled it by yourself. In 60 min you can host a website, write a web crawler, store and analyze data. Do you still make excuses for not learning it?”&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;But then I realized I was about to oversimplify; I wanted to present difficult concepts and skip the tiresome and lengthy parts, which was wrong. Or wasn’t it?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am a fan of good stories. Storytelling engages, grabs audience’s attention, eases the process of learning. But storytelling has a dark side, it shows things simpler than they are, which might lead to messing up with people’s ability to understand the basics accurately. It’s rewarding to share a personal story and get laughs, make people enthusiastic about your approach - no doubts about that. But if a person decides to leave his current career for IT just because of my “rainbows and sunshines in IT” post, it might be a disaster, and I would be responsible for it. I know, I am overthinking, but it doesn’t seem right.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/storytelling_simple.jpg&quot; alt=&quot;Albert Einstein&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Growing complexity is an issue not only in software development. We all might agree that things should be as simple as possible, and when they are not, we speak of the need to “reduce complexity”. Removing unnecessary elements, adding visuals, using better metaphors. But where is the line between using engaging examples and oversimplification? Is there a guide on how to approach problems (not only IT) and make them simpler without messing up the core concepts? How do I know what is safe to remove?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/storytelling_order.png&quot; alt=&quot;Expectations&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When I explained my idea of simplified tutorials for non-developers to my brother (a software developer), he immediately shared his concerns:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Our work is not always exciting. There are ugly, legacy parts. There are issues that you have to solve, and it takes days, even weeks. Often those are not your mistakes. Hiding all those unpleasant parts is unfair. Unfortunately, that’s a considerable part of our work.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A while ago I had an interesting discussion on my blog post about storytelling. My colleague made a point that overused storytelling leads to knowledge gaps, lack of real problem-solving skills - “Just because there is void in the mind behind the stories.” It was a very valid point.&lt;/p&gt;
+
+&lt;p&gt;It seems that I tend to oversimplify things. It’s probably time to find some treatment. But I don’t want to stop using stories and metaphors, because it’s a powerful explanation tool.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/storytelling_secret.png&quot; alt=&quot;Reality&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;complex-vs-complicated&quot;&gt;Complex vs. Complicated&lt;/h2&gt;
+
+&lt;p&gt;So how to simplify things without confusing people? Jurgen Appelo is an incredibly insightful person, and let’s investigate his approach for simplification. In his book, &lt;a href=&quot;https://www.amazon.co.uk/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471&quot; target=&quot;_blank&quot;&gt;Management 3.0&lt;/a&gt;, we can find a chapter about simplification, where Jurgen digs into the differences between complex and complicated. Up until reading “Management 3.0”, I was confident that complex and complicated are synonymous, while they are apparently not.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Simple well-structured software can show very complex behavior, whereas complicated messy software can still behave orderly and fully predictable. - Jurgen Appelo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/management-3.png&quot; alt=&quot;Management 3.0&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jurgen uses two dimensions to explain the difference:&lt;/p&gt;
+
+&lt;p&gt;The first dimension is about &lt;strong&gt;the structure of a system&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Simple - few features, easily understandable&lt;/li&gt;
+  &lt;li&gt;Complicated - many features, hard to understand&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The second dimension explains &lt;strong&gt;the behavior of the system&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ordered - predictable&lt;/li&gt;
+  &lt;li&gt;Complex - somewhat predictable&lt;/li&gt;
+  &lt;li&gt;Chaotic - unpredictable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/Storytelling_behavior_structure.png&quot; alt=&quot;Structure vs. Behavior&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The structure and functionality of a basketball are simple - it’s made out of rubber, and it bounces. A clock is way more complicated, but a trained watchmaker understands it - he can take a watch to pieces and put it back again. People, for example, are not as predictable as a ball. There is no simple cause and effect: searching for meaning in life or politics. The atmosphere or stocks are chaotic; given the technologies we already have, we still can’t figure out many details.&lt;/p&gt;
+
+&lt;h2 id=&quot;ways-to-remove-unnecessary-information&quot;&gt;Ways to remove unnecessary information&lt;/h2&gt;
+
+&lt;p&gt;There are two approaches to exclude redundant information. &lt;strong&gt;Simplification&lt;/strong&gt; touches only the first dimension, moves vertically. It makes the structure more understandable, by omitting some elements, moving from top to bottom. When people get the core idea, you can slowly expand the structure. Human brains absorb new features if you keep the behavior unchanged. For example, to explain an F1 car start with a regular car and gradually add enhancements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/storytelling_simplification.png&quot; alt=&quot;Simplification&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linearization&lt;/strong&gt; makes the behavior more predictable, moves axis horizontally. And here is where the complications start: if something is unpredictable, you can’t present it as ordered. As Jurgen mentioned in the book, simplified behavior doesn’t make it easier to understand the real and messy concept. Be careful not to linearize something because the reduced behavior of what you explain may not be what your listener had expected. If something is unpredictable, use similarly variable metaphor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/04/storytelling_linearization.png&quot; alt=&quot;Linearization&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;simplified-tutorials---do-or-do-not&quot;&gt;Simplified tutorials - Do or do not?&lt;/h2&gt;
+
+&lt;p&gt;Let’s come back to the initial idea of creating simplified development tutorials for all interested in changing their careers. There is nothing wrong with creating a shortened programming guide. Learning a tool or technology is a straightforward process: the more you progress, the more advanced topics you get.&lt;/p&gt;
+
+&lt;p&gt;However, I have to distinguish learning to code from getting paid to build software. Software developers solve human problems, and humans are complex by nature - they change their minds, and it impacts developers. From this perspective, IT doesn’t look like an ordered world. Furthermore, Maciej Aniserowicz, a Polish IT blogger, in one of his YouTube vlogs shared an interesting thought:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Programming is a constant fight with machines. You want them to make what you promised to a project manager. Computers tend to disobey your orders and throw unseen exceptions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It sounds like pure chaos, or Maciej is overexaggerating? What’s your approach to simplification?&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;related-posts&quot;&gt;Related posts:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/pulse/5-storytelling-ideas-your-next-technical-presentation-maksimavi%25C4%258Dius/&quot; target=&quot;_blank&quot;&gt;5 Storytelling Ideas for Your Next Technical Presentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="speaking" /><summary type="html">A few weeks ago I got an idea to create a set of programming tutorials for non-developers. Since I had been receiving questions about developer’s career and how to become one, I thought of creating digestible guides to show how easy it is to start coding. In a way: “Look, it’s as simple as riding a bike, you should be ashamed you haven’t googled it by yourself. In 60 min you can host a website, write a web crawler, store and analyze data. Do you still make excuses for not learning it?”</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/04/storytelling_fb.jpg" /></entry><entry><title type="html">Useful Azure SQL Data Warehouse resources</title><link href="https://www.valdas.blog/2018/04/05/useful-azure-sql-data-warehouse-resources/" rel="alternate" type="text/html" title="Useful Azure SQL Data Warehouse resources" /><published>2018-04-05T00:00:00+00:00</published><updated>2018-04-05T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/04/05/useful-azure-sql-data-warehouse-resources</id><content type="html" xml:base="https://www.valdas.blog/2018/04/05/useful-azure-sql-data-warehouse-resources/">&lt;p&gt;Azure SQL Data Warehouse (SQL DW) is a PaaS platform that takes advantage of Massively Parallel Processing (MPP) to run complex queries. It provides high-performance analytics on petabytes of data only if you satisfy the requirements. Thus make sure you understand optimal usage and limitations of SQL DW. Here is a list of links and resources I find useful:&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;when-to-choose-sql-data-warehouse&quot;&gt;When to choose SQL Data Warehouse&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.blue-granite.com/blog/is-azure-sql-data-warehouse-a-good-fit&quot; target=&quot;_blank&quot;&gt;Is Azure SQL DW a good fit?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jamesserra.com/archive/2017/05/sql-data-warehouse-reference-architectures/&quot; target=&quot;_blank&quot;&gt;SQL DW reference architectures&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-service-capacity-limits&quot; target=&quot;_blank&quot;&gt;SQL DW capacity limits&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;differences-between-sql-database-and-sql-data-warehouse&quot;&gt;Differences between SQL Database and SQL Data Warehouse&lt;/h2&gt;
+
+&lt;p&gt;Both offerings are expanding quickly, but they take advantage of different processing paradigms: SQL Database uses SMP and SQL DW - MPP. Since more users employ SQL DB, it has (and probably will in future) more features and evolves quicker than SQL DW.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dzone.com/articles/azure-sql-database-vs-azure-sql-data-warehouse&quot; target=&quot;_blank&quot;&gt;Azure SQL DB vs. Azure SQL DW - Feb. 15, 18&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jamesserra.com/archive/2016/08/azure-sql-database-vs-sql-data-warehouse/&quot; target=&quot;_blank&quot;&gt;Azure SQL DB vs. Azure SQL DW - Aug. 10, 16&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;available-integrations&quot;&gt;Available integrations&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-sql-data-warehouse&quot; target=&quot;_blank&quot;&gt;Copy data to or from Azure SQL Data Warehouse by using Azure Data Factory&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://azure.microsoft.com/de-de/blog/azure-sqldw-the-cost-benefits-of-an-on-demand-data-warehousing/&quot; target=&quot;_blank&quot;&gt;On-demand warehousing using Azure Functions&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://azure.microsoft.com/de-de/blog/azuresqldw-hub-and-spoke-series-integration-with-sql-database/&quot; target=&quot;_blank&quot;&gt;Hub and spoke integration with SQL DB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.databricks.com/spark/latest/data-sources/azure/sql-data-warehouse.html&quot; target=&quot;_blank&quot;&gt;Azure Databricks reads/writes from SQL DW&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;best-practices&quot;&gt;Best practices&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-best-practices&quot; target=&quot;_blank&quot;&gt;SQL DW best practices&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/sql-data-warehouse/guidance-for-loading-data&quot; target=&quot;_blank&quot;&gt;Data loading best practices&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.slideshare.net/ValdasMaksimaviius/azure-sql-data-warehouse-cheat-sheet&quot; target=&quot;_blank&quot;&gt;SQL DW coding cheat sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;supporting-tools&quot;&gt;Supporting tools&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms&quot; target=&quot;_blank&quot;&gt;SQL Server Management Studio&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;be-up-to-date-with-the-latest-updates&quot;&gt;Be up to date with the latest updates&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://azurenotes.tech/ServiceNotes&quot; target=&quot;_blank&quot;&gt;Azure Service Notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/blog/topics/data-warehouse/&quot; target=&quot;_blank&quot;&gt;Azure blog - Data Warehouse section&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jamesserra.com/&quot; target=&quot;_blank&quot;&gt;James Serra’s Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;related-posts&quot;&gt;Related posts&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/2017/09/30/azure-big-data-starter-project/&quot; target=&quot;_blank&quot;&gt;Azure Big Data Starter Project on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2017/06/17/azure-sql-data-warehouse-cheat-sheet/&quot; target=&quot;_blank&quot;&gt;Azure SQL Data Warehouse Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="software" /><summary type="html">Azure SQL Data Warehouse (SQL DW) is a PaaS platform that takes advantage of Massively Parallel Processing (MPP) to run complex queries. It provides high-performance analytics on petabytes of data only if you satisfy the requirements. Thus make sure you understand optimal usage and limitations of SQL DW. Here is a list of links and resources I find useful:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/04/sql-dw-fb.png" /></entry><entry><title type="html">Tips to Get the Most out of Prototyping</title><link href="https://www.valdas.blog/2018/03/23/tips-for-prototyping/" rel="alternate" type="text/html" title="Tips to Get the Most out of Prototyping" /><published>2018-03-23T00:00:00+00:00</published><updated>2018-03-23T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/03/23/tips-for-prototyping</id><content type="html" xml:base="https://www.valdas.blog/2018/03/23/tips-for-prototyping/">&lt;figure class=&quot;badge&quot;&gt;&lt;img src=&quot;https://www.valdas.blog/images/2018/03/prototype_02.png&quot; style=&quot;width:200px;max-width:100%;&quot; alt=&quot;badge&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;Over the last years, I have worked on many prototyping initiatives, with duration ranging from one week to six months. I have used such experiments to reduce risks associated with new and unproven tools or services. I am specializing in data analytics, data engineering and cloud infrastructure (Azure). All those areas are evolving rapidly, and it’s a challenge to stay on top of the latest updates. Hence, prototyping helps me to identify technology weaknesses early in the process.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;In October 2017, I spoke at Agile Tour 2017 conference about my prototyping experiences.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/diEMogUPGXM&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Here are my 8 insights from the talk to help you use prototyping more efficiently:&lt;/p&gt;
+
+&lt;h2 id=&quot;1-agree-on-naming&quot;&gt;1. Agree on naming&lt;/h2&gt;
+
+&lt;p&gt;There is nothing more important than a consistent dictionary. Proof of concept, prototype, and pilot mean different things, but often are used interchangeably. However, the main difference is the scope and the underlying costs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017/05/comparison.png&quot; alt=&quot;POC vs. Prototype vs. Pilot vs. Production&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I approach &lt;strong&gt;a proof of concept&lt;/strong&gt; as an isolated exercise, that takes a few days to implement. For example, are newly released database features relevant to our project?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/prototype_01.png&quot; alt=&quot;Proof of Concept&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A prototype&lt;/strong&gt; for me is a system simulation. I like to understand in detail how I can integrate it with our existing tools. For example, can I integrate it with our CI/CD pipeline?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/prototype_02.png&quot; alt=&quot;Prototype&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Minimum Viable Product (MVP)&lt;/strong&gt;, or sometimes referred as a pilot, tests the subset of functionality in production with real people.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/prototype_03.png&quot; alt=&quot;Minimum Viable Product&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2017/05/29/proof-of-concept-vs-prototype-vs-pilot/&quot; target=&quot;_blank&quot;&gt;Here is my another post on differences between proof of concept, prototype, minimum viable product.&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-determine-the-proper-questions-to-ask&quot;&gt;2. Determine the proper questions to ask&lt;/h2&gt;
+
+&lt;p&gt;Developers by nature are eager to explore new tools, try cutting-edge technologies, get hands-on experience. However, to get the most out of prototyping, it is recommended to define questions you want to get answers before your team starts coding.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[…] teams have followed the “Let’s just ship a product and see what happens” plan. Unfortunately, if the plan is to see what happens, a team is guaranteed to succeed - at seeing what happens - but won’t necessarily gain validated learning. - The Lean Startup by Eric Ries&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;The first step is figuring out the problem that needs to be solved by forming questions and assumptions.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2017/07/07/book-the-lean-startup-by-eric-ries/&quot; target=&quot;_blank&quot;&gt;My eight most favorite quotes from The Lean Startup by Eric Ries&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-define-the-hierarchy-of-needs&quot;&gt;3. Define the hierarchy of needs&lt;/h2&gt;
+
+&lt;p&gt;It rarely happens that new tools or services offer everything you need, without any hidden costs or limitations. If you think that’s the case, verify all once again. Technology selection and experimentation is a constant balancing act: what features are crucial and what are unimportant.&lt;/p&gt;
+
+&lt;p&gt;Abraham Maslow created &lt;a href=&quot;https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs&quot; target=&quot;_blank&quot;&gt;the original hierarchy of needs&lt;/a&gt; and argued that “One must satisfy lower level basic needs before progressing on to meet higher level growth needs.” You can define your project’s hierarchy of needs, for example:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/prototype_pyramid.jpg&quot; alt=&quot;Prototype&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Start your technology evaluation experiments from lower levels and proceed up.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-identify-your-knowledge-gaps&quot;&gt;4. Identify your knowledge gaps&lt;/h2&gt;
+
+&lt;p&gt;It is wise to assess your group skills before starting such activities. Learning-by-doing is a viable approach, but if a team has absolutely no relevant experience, your prototyping initiative is doomed.&lt;/p&gt;
+
+&lt;p&gt;If you are evaluating a commercial software, reach out to the sales team with your questions. Don’t dwell on it surfing through the whole Google to find the answer. Can’t see required details in the documentation? - The sales team can connect you with a technician. Did your trial end too soon and you didn’t test it properly? - Ask them to extend it. It’s your call to choose the offering or go with the competition, but make sure you use all available channels to gather relevant information.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5-review-the-architecture&quot;&gt;5. Review the architecture&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Your early decisions make the biggest impact on the eventual shape of your system […]. It’s a terrible irony that these very early decisions are also the least informed - Release It! by Michael Nygard&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://leanpub.com/software-architecture-for-developers&quot; target=&quot;_blank&quot;&gt;Software Architecture for Developers by Simon Brown&lt;/a&gt; is a practical guide to software architecture, specifically aimed, as the title suggests, at developers. Simon proposes to have architecture reviews and let all team members express their opinion about all components. Whiteboarding with color stick papers is a good start to help you identify weak points in your design.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/prototype_architecture.jpg&quot; alt=&quot;Simon Brown&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prototypes don’t have the cleanest structure, but with such architecture retrospectives, you can keep the team members informed about all workarounds and hacks. Have a process to avoid surprises once you ship it to production.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;6-track-your-efforts&quot;&gt;6. Track your efforts&lt;/h2&gt;
+
+&lt;p&gt;A spike is a task aimed at answering a question or gathering information, rather than at producing a shippable feature. There can be two types of spikes: technical and functional.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The technical spike&lt;/strong&gt; is used for evaluating the effect new technology has on the current solution. &lt;strong&gt;A functional spike&lt;/strong&gt; is used to determine users interactions with a new implementation, test business assumptions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.scaledagileframework.com/spikes/&quot; target=&quot;_blank&quot;&gt;Learn more about spikes&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;7-document&quot;&gt;7. Document&lt;/h2&gt;
+
+&lt;p&gt;Probably one of the biggest mistakes I did while prototyping was lack of proper progress documentation. Record not only successful attempts but put even more efforts to describe the failed opportunities. If an experiment failed because of poor functionality, it might change with a newer version. You don’t want to repeat all tests, just focus next time on what failed previously.&lt;/p&gt;
+
+&lt;p&gt;I am using Evernote as my getting things done tool. I love Evernote &amp;lt;-&amp;gt; Google integration because now I see my old notes if I search for something similar. It happens that I find an interesting article about a new tool, and eventually decide it’s not relevant now. But in a few months/years, it might be applicable. Evernote helps me to track my previous readings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/prototype_evernote.jpg&quot; alt=&quot;Evernote integrates with Google&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;8-stop-starting-start-finishing&quot;&gt;8. Stop starting, start finishing&lt;/h2&gt;
+
+&lt;p&gt;Learning IDE shortcuts is one out of many useless things you can do during prototyping. Instead, focus on answering your questions (look at 2. Determine the proper questions to ask), stick to the agreed scope, get it done as fast as possible. Spending days configuring an environment, learning IDE shortcuts is apparent procrastination.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/prototype_mordor.png&quot; alt=&quot;Learning IDE shortcuts is procrastination&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another significant aspect is finishing what you started and documenting the results. Just take a look at this brilliant illustration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/prototype_side_project.jpg&quot; alt=&quot;Commitstrip - Side Project&quot; class=&quot;img-responsive&quot; /&gt; 
+&lt;sub&gt;&lt;a href=&quot;http://www.commitstrip.com/en/2014/11/25/west-side-project-story/&quot; target=&quot;_blank&quot;&gt;CommitStrip - Side Project&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;extras&quot;&gt;Extras&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Reducing Technology Risks Through Prototyping - Agile Tour 2017 slides&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.slideshare.net/slideshow/embed_code/key/cKNvjEo9GiMxyN&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;related-posts&quot;&gt;Related posts&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/2017/06/12/prototyping-for-big-data/&quot; target=&quot;_blank&quot;&gt;Strategic prototyping approach for Big Data&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2017/07/07/book-the-lean-startup-by-eric-ries/&quot; target=&quot;_blank&quot;&gt;My eight most favorite quotes from The Lean Startup by Eric Ries&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2017/05/29/proof-of-concept-vs-prototype-vs-pilot/&quot; target=&quot;_blank&quot;&gt;Differences between proof of concept, prototype, minimum viable product&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="software" /><summary type="html">Over the last years, I have worked on many prototyping initiatives, with duration ranging from one week to six months. I have used such experiments to reduce risks associated with new and unproven tools or services. I am specializing in data analytics, data engineering and cloud infrastructure (Azure). All those areas are evolving rapidly, and it’s a challenge to stay on top of the latest updates. Hence, prototyping helps me to identify technology weaknesses early in the process.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/03/prototype_fb.jpg" /></entry><entry><title type="html">Business drawing lessons from Dan Roam</title><link href="https://www.valdas.blog/2018/03/05/business-drawing-lessons/" rel="alternate" type="text/html" title="Business drawing lessons from Dan Roam" /><published>2018-03-05T00:00:00+00:00</published><updated>2018-03-05T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/03/05/business-drawing-lessons</id><content type="html" xml:base="https://www.valdas.blog/2018/03/05/business-drawing-lessons/">&lt;p&gt;Even a simple drawing can clarify any idea and captivate readers. Either you write about emotions, talk about science or communicate software architecture, a coherent diagram will always help. In this blog post, I introduce Dan Roam teachings.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Tim Urban, the author of the blog &lt;a href=&quot;http://waitbutwhy.com&quot; target=&quot;_blank&quot;&gt;Wait But Why&lt;/a&gt;, uses simple drawings to explain topics like space, neuroscience or artificial intelligence. From an artistic point of view, Tim’s pictures are bad. But it always &lt;a href=&quot;https://28oa9i1t08037ue3m1l0i861-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Venn3.png&quot; target=&quot;_blank&quot;&gt;puts a smile on my face&lt;/a&gt;, and most importantly, communicates any message. &lt;strong&gt;I want to draw like him.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2008 Dan Roam wrote a bestselling book: &lt;a href=&quot;https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697&quot; target=&quot;_blank&quot;&gt;“The Back of the Napkin: Solving Problems and Selling Ideas with Pictures”&lt;/a&gt;. As the description puts, the book presents “a new way to tackle tough business problems—even if you draw like a second grader”. It looks I found a book for myself.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/draw_the_back_of_the_napkin.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stop thinking about drawing as an artistic process. Drawing is a thinking process - Dan Roam&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;oh-no-i-suck-at-drawing-its-not-for-me&quot;&gt;Oh no, I suck at drawing, it’s not for me&lt;/h3&gt;
+
+&lt;p&gt;I get it, and the below TED talk is dedicated to people like you and me.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7TXEZ4tP06c&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;drawing-tools-from-dan-roam&quot;&gt;Drawing tools from Dan Roam&lt;/h3&gt;
+
+&lt;p&gt;While presenting any idea/solution/problem, you will have to answer questions like who, how much, where, when, how, why. &lt;a href=&quot;http://www.danroam.com/assets/pdf/tools/TBOTN_6x6.pdf&quot; target=&quot;_blank&quot;&gt;Find out how to visualize each item.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.danroam.com/tools/&quot; target=&quot;_blank&quot;&gt;Visit Dan Roam’s website for more visual tricks and tools.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;a-quick-lesson-on-how-to-draw-anything&quot;&gt;A quick lesson on how to draw anything&lt;/h3&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/qkp4ArqsOmrbaU&quot; width=&quot;595&quot; height=&quot;370&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%; &quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;sup&gt; &lt;a href=&quot;//www.slideshare.net/danroam/rock-and-roll-a-back-of-the-napkin-fable&quot; title=&quot;Rock and Roll&amp;#x27;s Drawing Fable (A quick lesson on how to draw anything!) &quot; target=&quot;_blank&quot;&gt;Rock and Roll&amp;#x27;s Drawing Fable (A quick lesson on how to draw anything!) &lt;/a&gt; from &lt;a href=&quot;https://www.slideshare.net/danroam&quot; target=&quot;_blank&quot;&gt;Dan Roam&lt;/a&gt; &lt;/sup&gt; &lt;/div&gt;
+
+&lt;h3 id=&quot;find-inspirations-and-enhance-your-message&quot;&gt;Find inspirations and enhance your message&lt;/h3&gt;
+
+&lt;p&gt;The reason I like drawing is that there is less headache with copyright laws. Remeber, a vast majority of images you find on the internet is a subject for copyright. Therefore use pictures from Google Images only as &lt;strong&gt;inspirations&lt;/strong&gt;, later in a graphics program (I am using Adobe Illustrator) draw your version. Combine multiple illustrations to convey your message. How to represent a car, a house or visualise a jump with a parachute? Give it a spin!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/03/draw_let_me_google.gif&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A few blog posts where I drew the illustrations myself:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2017/11/30/saying-no/&quot;&gt;Saying NO&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2017/12/01/anxious-or-excited/&quot;&gt;Anxious or excited? It’s up to you!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/2018/02/25/my-delegation-lessons/&quot;&gt;My delegation lessons&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697&quot; target=&quot;_blank&quot;&gt;“The Back of the Napkin: Solving Problems and Selling Ideas with Pictures”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Draw-Win-Course-Innovate-Visual/dp/0399562990/&quot; target=&quot;_blank&quot;&gt;“Draw to Win: A Crash Course on How to Lead, Sell, and Innovate With Your Visual Mind”&lt;/a&gt;&lt;/p&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="book" /><summary type="html">Even a simple drawing can clarify any idea and captivate readers. Either you write about emotions, talk about science or communicate software architecture, a coherent diagram will always help. In this blog post, I introduce Dan Roam teachings.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/03/draw_fb.jpg" /></entry><entry><title type="html">My delegation lessons</title><link href="https://www.valdas.blog/2018/02/25/my-delegation-lessons/" rel="alternate" type="text/html" title="My delegation lessons" /><published>2018-02-25T00:00:00+00:00</published><updated>2018-02-25T00:00:00+00:00</updated><id>https://www.valdas.blog/2018/02/25/my-delegation-lessons</id><content type="html" xml:base="https://www.valdas.blog/2018/02/25/my-delegation-lessons/">&lt;p&gt;Delegating tasks to local team members is already tricky. Delegating tasks to people distributed all over the world opens another Pandora’s box. Leadership courses, coaching exercises or delegation drills give a solid foundation, but once the rubber meets the road, you are on your own.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Over the past few years, I have been responsible for leading a team, setting priorities and making sure we deliver what we promise. Over that period, I have deployed multiple solutions, made many mistakes and learned many great lessons.&lt;/p&gt;
+
+&lt;p&gt;One of the leadership aspects that hit me hardest was delegation; no wonder why it is often referenced as “the art of delegation”. In this blog post, I am going to list my three principles of delegation that I follow.&lt;/p&gt;
+
+&lt;h2 id=&quot;lesson-1-understand-why-a-task-is-important-before-delegating-it&quot;&gt;Lesson #1: Understand why a task is important before delegating it&lt;/h2&gt;
+
+&lt;p&gt;My first delegation attempts were miserable. My team’s backlog was full of various assignments: some were challenging and put a smile on a face; some were tedious and sparked thoughts of quitting the job. As a leader, I had to ensure everything is completed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/02/delegation-interesting-tasks.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For some unexplainable reason, I started framing the tedious tasks as simple. “It’s not as difficult as you think”. Believing that people will be more open to take responsibility for it, making the assignee feel less burdened. However “easy tasks” are not desirable. When a person leaves a company, he never says “I quit, because I didn’t get enough simple tasks”. It might be the other way around - “I quit because I didn’t get chance to work on important and challenging things”. Therefore it was stupid to frame tedious tasks as simple. A more experienced colleague suggested to present all assignments as necessary, and this strategy has worked well for me ever since.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/02/delegation-important-tasks.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jacko Willink, in one of his recent podcasts, talks about the importance of explaining WHY, respect, and delegation of tedious tasks, like taking out the trash. Jocko is a former SEAL units leader, trainer, business consultant, &lt;a href=&quot;/2018/02/20/extreme-ownership/&quot;&gt;book author&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/channel/UCkqcY4CAuBFNFho6JgygCnA&quot;&gt;podcast host&lt;/a&gt;. He uses military and war stories to explain the nuances of leadership. A mistake in business might cause a project failure, lost client, bankruptcy. Even the worst-case scenario in business is far away from the combat mistakes outcome - death.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/gkGxjBSTfGw&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Explain why, participate when you can, build relationships with your troops and you’ll be good” - Jocko Willink&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To summarize my delegation Lesson #1, I treat a task as delegatable if I can understand the importance and the impact of the assignment. Use Simon Sinek’s preachings and &lt;a href=&quot;https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action&quot;&gt;start with explaining the Why&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;lesson-2-recognize-when-people-refuse-to-accept-ownership&quot;&gt;Lesson #2 Recognize when people refuse to accept ownership&lt;/h2&gt;
+
+&lt;p&gt;Toastmasters is a nonprofit organization that controls clubs worldwide to help members improve their public speaking and leadership skills. I joined &lt;a href=&quot;http://toastmasters.lt/&quot;&gt;a local Toastmasters club&lt;/a&gt; with the primary goal to become more confident public speaker. I was not interested in leadership track because leadership courses seemed to be just a cliché. Soon, I was about to learn the Toastmasters leadership approach.&lt;/p&gt;
+
+&lt;p&gt;One time the club president approached me to ask a favor.&lt;/p&gt;
+
+&lt;p&gt;“Would you be interested in organizing a team building for our members?”, asked the club president.&lt;/p&gt;
+
+&lt;p&gt;“Sure, why not”, wrongly assuming it’s barely a dinner table reservation.&lt;/p&gt;
+
+&lt;p&gt;“Great! Listen. We are almost 50 members; we like team buildings that last for 2 days out of the city, with catering, transportation, and engagements for all during both days; fixed budget. You can arrange it alone, or you can ask others for help”, detailed the president.&lt;/p&gt;
+
+&lt;p&gt;I was left speechless. I started asking people for help, but I couldn’t get buy-ins. They seemed to agree first, but there was no progress.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/02/delegation-maybe.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A colleague quickly noticed my struggles and suggested to pay more attention to the assignees’ responses, to not take any “YES” for granted. Instead of saying “No”, people might use phrases like “maybe”, “I might take a look”, “I think I could”. I, as an inexperienced leader, took those phrases as an agreement to take ownership. WHAT A NOOBY MISTAKE.&lt;/p&gt;
+
+&lt;p&gt;My current strategy of identifying buy-ins requires putting responses on an axis with “NO” on one end, and “YES” on another.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/02/delegation-maybe-axis.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Every time I delegate something I locate the response on the axis. “Maybe”, “I think I could”, inconsistent verbal and non-verbal communication -  all maps between “NO” and “YES”. Later I investigate what has to be done from my end to get a total buy-in (YES). Have I provided enough information? Have I chosen the right person for the task? Is there enough time? A while ago I wrote a blog post on &lt;a href=&quot;/2017/11/30/saying-no/&quot;&gt;saying NO&lt;/a&gt; that you might find interesting and relevant.&lt;/p&gt;
+
+&lt;p&gt;Coming back to the team building event: it was a success and an accelerated leadership training!&lt;/p&gt;
+
+&lt;h2 id=&quot;lesson-3-continuously-improve-your-explanation-skills&quot;&gt;Lesson #3 Continuously improve your explanation skills&lt;/h2&gt;
+
+&lt;p&gt;Delegating gets trickier when team members are distributed all over the world. In one project, I was responsible for collecting software details from the stakeholders scattered across the globe. I was about to contact strangers, people I have never spoken to, and ask them to do a particular task. The most challenging part of the assignment was to ensure everyone understands the context, knows what has to be done, and delivers what was promised.&lt;/p&gt;
+
+&lt;p&gt;Initially, the communication strategy was chaotic. In some cases, we sent out meeting requests and promised to explain the context during the phone call; other times we distributed emails with multiple attachments, hoping that a person would read it all. Both approaches were failing. What we ended up doing was something in between: personalized content, clearly listed expectations and attached a simplified architecture diagram with marked components that are relevant to the conversation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/02/delegation-balance.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It took a lot of time and effort to write such personal emails, and I am afraid I spent more time explaining the context to the team than people doing the job. &lt;strong&gt;Making complicated things simple, communicating it to others, getting your ideas across, conveying your thoughts verbally and in writing&lt;/strong&gt; - I would like to get better at it. Unfortunately, it won’t happen overnight.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2018/02/delegation-bojack.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;sup&gt;Picture from BoJack Horseman&lt;/sup&gt;&lt;/p&gt;</content><author><name>Valdas Maksimavičius</name></author><category term="growth" /><summary type="html">Delegating tasks to local team members is already tricky. Delegating tasks to people distributed all over the world opens another Pandora’s box. Leadership courses, coaching exercises or delegation drills give a solid foundation, but once the rubber meets the road, you are on your own.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.valdas.blog/images/2018/02/delegation-fb.png" /></entry></feed>
